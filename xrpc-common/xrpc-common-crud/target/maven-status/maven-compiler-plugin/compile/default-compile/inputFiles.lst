@@ -1,0 +1,9 @@
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\controller\bean\CParams.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\controller\bean\CResult.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\controller\CrudBaseController.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\db\baseservice\CrudBaseService.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\db\baseservice\impl\CrudBaseServiceImpl.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\db\dao\DaoRepository.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\db\dao\impl\DaoRepositoryImpl.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\db\dao\MyJpaRepositoryFactoryBean.java
+F:\testesb\xrpc-common\xrpc-common-crud\src\main\java\com\xs\db\specification\SimpleSpecificationByBean.java

@@ -1,0 +1,92 @@
+[
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/GetDemo",
+			"method":"get"			
+		},
+		
+		"response":{
+			"text":"This is Get request"		
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/TRANNO001",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"<transaction><header><msg><msgCd>H500000051</msgCd><callTyp>SYN</callTyp><ip>62.107.227.59</ip><seqNb>111106500000497</seqNb><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndDt>20220113</sndDt><sndTm>104303</sndTm><rcvMbrCd>1000</rcvMbrCd><rcvAppCd>DBK</rcvAppCd><refMsgCd>H500000050</refMsgCd><refCallTyp>SYN</refCallTyp><refSndMbrCd>WEX0</refSndMbrCd><refSndAppCd>001</refSndAppCd><refSndDt>20220113</refSndDt><refSeqNb>111106500000497</refSeqNb></msg><pnt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndDt>20220113</sndDt><sndTm>104303</sndTm><rcvMbrCd>1000</rcvMbrCd><rcvAppCd>DBK</rcvAppCd></pnt><status><retCd>000000</retCd><desc>交易正常完成</desc><location/><mbrCd>1000</mbrCd><appCd>DBK</appCd></status></header><body><response><cusNo>1005229578</cusNo><telPhn>20066660011</telPhn><email></email><realNm>胡荣</realNm><idTyp>01</idTyp><idNo>362426197701291316</idNo><curState>00</curState><sex>1</sex><fixPhn></fixPhn><fmlyAddr/><emrgPersNm/><emrgPersPhn></emrgPersPhn><proTyp></proTyp><coNm/><coAddr/><annualIncm></annualIncm><fmlyYrIncm></fmlyYrIncm><houseFlg></houseFlg><houseVal></houseVal><loanFlg></loanFlg><loanRemainAmt></loanRemainAmt><answerSeq/><memo/><eAcct>6224124200016165</eAcct><eAcctBal>0.00</eAcctBal><backupa/><funca></funca><backupb/><funcb></funcb><resDesc/><verFlg>1</verFlg><revokeFlg></revokeFlg><redeemFlg></redeemFlg><prodFlg>1</prodFlg><loanMode></loanMode><handPhoto>1</handPhoto><dpstTyp/><prodSta></prodSta><oldTelPhn/><transtyp>0</transtyp><useTyp>0</useTyp><rcmdPerPhn></rcmdPerPhn></response></body></transaction>"		
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/TRNO002",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"0000000000000000111111112222 344444444               566666666               788888888               9"		
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/NSB001",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"{'code':'000000','message':'OK','nsb': {'prodTyp': '01','proAcctBal': '01','proYesIncm': '01','proAccumIncm': '01',subAmt': '01'}}"		
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/DZZH001",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"{'code':'000000','message':'OK','acct': {'prodTyp': '02','proAcctBal': '02','proYesIncm': '02','proAccumIncm': '02',subAmt': '02'}}"	
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/KXC001",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"{'code':'000000','message':'OK','kxc': {'prodTyp': '03','proAcctBal': '03','proYesIncm': '03','proAccumIncm': '03',subAmt': '03'}}"
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/TRANNO003",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"{'code':'000000','message':'OK','data': {'count':'3', 'list':[{'prodTyp': '01','proAcctBal': '01','proYesIncm': '01','proAccumIncm': '01',subAmt': '01'},{'prodTyp': '02','proAcctBal': '02','proYesIncm': '02','proAccumIncm': '02',subAmt': '02'},{'prodTyp': '03','proAcctBal': '03','proYesIncm': '03','proAccumIncm': '03',subAmt': '03'}]}}"
+		}	
+	},
+	{		
+		"description":"这是Mock接口的Demo",
+		"request":{			
+			"uri":"/ZONG001",
+			"method":"post"			
+		},
+		
+		"response":{
+			"text":"{'code':'000000','message':'OK','data': {'eAcct':'哈哈哈','eAcctBal':'qq','ePayAmt':'qq','totAssert':'qq','finResAmt':'qq','yesIncm':'qq','accumIncm':'qq','curRank':'qq','expired':'qq','houseFlg':'qq','recOnt':'qq'}}"
+		}	
+	}
+	
+	
+]

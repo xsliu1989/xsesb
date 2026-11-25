@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-cache/xrpc-common-cache-cport/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-cache/xrpc-common-cache-cport/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-cache/xrpc-common-cache-datastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-cache/xrpc-common-cache-datastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-crud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-intercept/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-intercept/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-serve/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-common/xrpc-common-serve/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-http/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-http/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/xrpc-module-accept-tcp-dc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/xrpc-module-accept-tcp-dc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/xrpc-module-accept-tcp-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/xrpc-module-accept-tcp-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/xrpc-module-accept-tcp-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-accept-tcp/xrpc-module-accept-tcp-xml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-esb-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-esb-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-process/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-process/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-send-tcp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xrpc-module/xrpc-module-send-tcp/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

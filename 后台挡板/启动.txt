@@ -1,0 +1,6 @@
+F:
+cd 挡板服务
+java  -Dfile.encoding=utf-8 -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c Test.json
+java  -Dfile.encoding=GBK -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c Test.json
+
+https://blog.csdn.net/hujyhfwfh2/article/details/86376404

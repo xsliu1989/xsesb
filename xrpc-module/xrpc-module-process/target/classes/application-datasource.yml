@@ -1,0 +1,40 @@
+spring:
+  datasource:
+#    url: jdbc:db2://localhost:50000/sample:currentSchema=LXS;
+#    username: db2admin
+#    password: db2admin
+#    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:mysql://192.168.2.111:3306/esb_platform?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root234
+    initial-size: 3
+    max-active: 20
+    min-idle: 3
+    max-wait: 60000
+    time-between-eviction-runs-millis: 50000
+    min-evictable-idle-time-millis: 80000
+    validation-query-timeout: 10
+    test-on-borrow: false
+    test-on-return: false
+    test-while-idle: false
+    filters: stat,encoding
+    connectionProperties:
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+    show_sql: true
+    properties:
+      hibernate:
+        format_sql: true
+#        dialect: org.hibernate.dialect.DB2Dialect
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        max_fetch_depth: 1
+
+
+
+
+#  open-in-view: true

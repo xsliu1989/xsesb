@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/sql/01-business-metadata-tables.sql" value="26135e95-5066-4b57-a31c-3a6f4e5605da" />
+    <file url="file://$PROJECT_DIR$/sql/02-admin-tables.sql" value="26135e95-5066-4b57-a31c-3a6f4e5605da" />
+    <file url="file://$PROJECT_DIR$/sql/03-init-data.sql" value="26135e95-5066-4b57-a31c-3a6f4e5605da" />
+    <file url="file://$PROJECT_DIR$/sql/04-demo-data.sql" value="26135e95-5066-4b57-a31c-3a6f4e5605da" />
+    <file url="file://$PROJECT_DIR$/sql/06-挡板联调-TRANNO001.sql" value="26135e95-5066-4b57-a31c-3a6f4e5605da" />
+    <file url="file://$PROJECT_DIR$/sql/all-in-one-ascii.sql" value="26135e95-5066-4b57-a31c-3a6f4e5605da" />
+  </component>
+</project>

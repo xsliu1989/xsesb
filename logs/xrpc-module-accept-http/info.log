@@ -1,0 +1,15 @@
+10:55:24.330 [background-preinit] INFO  o.h.v.i.util.Version  - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:55:25.286 [main] INFO  c.x.XrpcModuleAcceptHttpApplication  - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:55:26.644 [main] INFO  o.a.c.h.Http11NioProtocol  - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:55:26.646 [main] INFO  o.a.c.c.StandardService  - [log,173] - Starting service [Tomcat]
+10:55:26.646 [main] INFO  o.a.c.c.StandardEngine  - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:55:26.851 [main] INFO  o.a.c.c.C.[.[.[/]  - [log,173] - Initializing Spring embedded WebApplicationContext
+10:55:26.938 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure  - [dataSource,56] - Init DruidDataSource
+10:55:27.115 [main] INFO  c.a.d.p.DruidDataSource  - [init,930] - {dataSource-1} inited
+10:55:27.188 [main] INFO  o.h.j.i.u.LogHelper  - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:55:27.249 [main] INFO  o.hibernate.Version  - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:55:27.437 [main] INFO  o.h.a.common.Version  - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:55:28.264 [main] INFO  o.h.dialect.Dialect  - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:55:29.049 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator  - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:55:31.556 [main] INFO  o.a.c.h.Http11NioProtocol  - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:55:31.902 [main] INFO  c.x.XrpcModuleAcceptHttpApplication  - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 8.492 seconds (JVM running for 9.993)

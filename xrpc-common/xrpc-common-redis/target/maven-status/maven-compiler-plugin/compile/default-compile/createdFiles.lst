@@ -1,0 +1,2 @@
+com\xs\util\RedisUtils.class
+com\xs\manager\XsJedisPool.class

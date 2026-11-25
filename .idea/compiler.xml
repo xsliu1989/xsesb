@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xrpc-module-accept-tcp-dc" />
+        <module name="xrpc-common-crud" />
+        <module name="xrpc-module-send-tcp" />
+        <module name="xrpc-common-intercept" />
+        <module name="xrpc-module-log" />
+        <module name="xrpc-module-process" />
+        <module name="xrpc-module-accept-tcp-xml" />
+        <module name="xrpc-common-redis" />
+        <module name="xrpc-admin" />
+        <module name="xrpc-common-serve" />
+        <module name="xrpc-common-cache-datastructure" />
+        <module name="xrpc-module-esb-service" />
+        <module name="xrpc-module-accept-tcp-json" />
+        <module name="xrpc-module-accept-http" />
+        <module name="xrpc-common-log" />
+        <module name="xrpc-common-cache-cport" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="xrpc-module-esb-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xrpc-admin" options="-parameters" />
+      <module name="xrpc-module-accept-http" options="" />
+      <module name="xrpc-module-process" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+com\xs\service\SendMessService.class
+com\xs\XrpcModuleSendTtpApplication.class
+com\xs\client\impl\SimplexSocketClient.class
+com\xs\client\impl\DefaultSocketClient.class
+com\xs\client\SocketClient.class
+com\xs\service\impl\ToCService.class
+com\xs\controller\DefaultController.class

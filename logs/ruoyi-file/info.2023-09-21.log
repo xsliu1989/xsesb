@@ -1,0 +1,1193 @@
+10:42:54.873 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:42:55.542 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:42:55.543 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:43:05.230 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+10:43:05.246 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+10:43:06.816 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:43:06.821 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:43:06.822 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:43:07.059 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:43:07.438 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:43:08.804 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:43:08.833 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:43:08.833 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:43:15.865 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9300"]
+10:43:15.866 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+10:43:15.872 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9300"]
+10:43:15.877 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9300"]
+10:44:19.536 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:44:20.024 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:44:20.024 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:44:22.274 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+10:44:22.290 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+10:44:23.378 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:44:23.380 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:44:23.380 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:44:23.563 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:44:23.865 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:44:25.124 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:44:25.148 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:44:25.149 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:44:25.306 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-accept 173.113.7.119:9300 register finished
+10:44:25.618 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 7.059 seconds (JVM running for 8.488)
+10:44:25.632 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+10:44:25.632 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.properties, group=DEFAULT_GROUP
+10:44:25.633 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept, group=DEFAULT_GROUP
+10:44:25.633 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept-dev.properties, group=DEFAULT_GROUP
+10:44:37.850 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:44:37.934 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:44:38.431 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:44:38.431 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:44:40.673 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:44:40.708 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+10:44:42.697 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:44:42.700 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:44:42.700 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:44:42.889 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:44:43.448 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:44:43.557 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:44:43.834 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:44:45.943 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:44:45.982 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:44:47.110 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:44:50.138 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:44:52.058 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:44:52.086 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:44:52.086 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:44:52.245 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+10:44:52.583 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 15.637 seconds (JVM running for 17.273)
+10:44:52.608 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+10:44:52.609 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+10:44:52.610 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+10:44:52.610 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+10:44:52.610 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+10:44:52.612 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+10:44:52.712 [RMI TCP Connection(7)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:45:05.156 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:45:43.825 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,51] - handel收到请求报文交易号:TRANNO001
+10:45:43.825 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,52] - Data:{a: {e:lxse;b: lxs; c:lxsc;d:lcsd};haha:b}
+10:45:43.825 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,53] - Timestamp:null
+10:45:43.826 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,54] - Nonce:null
+10:45:43.826 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,55] - Sign:null
+10:45:43.826 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,56] - Key:null
+10:45:43.826 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,57] - Token:null
+10:45:43.826 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,58] - Version:null
+10:45:47.516 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:45:54.148 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data={a: {e:lxse;b: lxs; c:lxsc;d:lcsd};haha:b}, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:47:08.572 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,92] - 处理异常
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://173.113.7.119:9301/defaultController": Unexpected end of file from server; nested exception is java.net.SocketException: Unexpected end of file from server
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:443)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:851)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.springframework.http.client.SimpleClientHttpResponse.getRawStatusCode(SimpleClientHttpResponse.java:55)
+	at org.springframework.web.client.DefaultResponseErrorHandler.hasError(DefaultResponseErrorHandler.java:61)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:813)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:783)
+	... 53 common frames omitted
+10:47:08.573 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,97] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=I/O error on POST request for "http://173.113.7.119:9301/defaultController": Unexpected end of file from server; nested exception is java.net.SocketException: Unexpected end of file from server, timefly=null, data=, key=null, version=null, sign=null)
+10:47:10.024 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+10:47:10.030 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+10:47:10.056 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+10:47:22.899 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:47:22.963 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:47:23.384 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:47:23.384 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:47:26.007 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:47:26.031 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+10:47:28.159 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:47:28.160 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:47:28.161 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:47:28.380 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:47:28.926 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:47:28.996 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:47:29.221 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:47:31.140 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:47:31.157 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:47:32.168 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:47:34.585 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:47:36.023 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:47:36.048 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:47:36.048 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:47:36.188 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+10:47:36.482 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 14.428 seconds (JVM running for 15.99)
+10:47:36.506 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+10:47:36.508 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+10:47:36.509 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+10:47:36.509 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+10:47:36.510 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+10:47:36.510 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+10:47:36.687 [RMI TCP Connection(4)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:48:22.841 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,51] - handel收到请求报文交易号:TRANNO001
+10:48:22.841 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,52] - Data:{a: {e:lxse;b: lxs; c:lxsc;d:lcsd};haha:b}
+10:48:22.842 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,53] - Timestamp:null
+10:48:22.842 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,54] - Nonce:null
+10:48:22.842 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,55] - Sign:null
+10:48:22.842 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,56] - Key:null
+10:48:22.842 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,57] - Token:null
+10:48:22.842 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,58] - Version:null
+10:48:28.143 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:48:29.316 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data={a: {e:lxse;b: lxs; c:lxsc;d:lcsd};haha:b}, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:48:48.343 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,92] - 处理异常
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2023-09-19T02:48:48.319+00:00","status":500,"error":"Internal Server Error","path":"/defaultController"}"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:100)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:170)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:825)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:783)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:443)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+10:48:48.344 [http-nio-9300-exec-3] INFO  c.x.c.DefaultController - [handler,97] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=500 : "{"timestamp":"2023-09-19T02:48:48.319+00:00","status":500,"error":"Internal Server Error","path":"/defaultController"}", timefly=null, data=, key=null, version=null, sign=null)
+08:53:47.829 [http-nio-9300-exec-4] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+08:54:20.242 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+08:55:38.018 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+08:55:38.024 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+08:55:38.358 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+08:55:38.363 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+08:55:38.413 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+08:55:51.094 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+08:55:51.178 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+08:55:51.647 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:55:51.647 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:55:54.765 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+08:55:54.824 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+08:55:56.289 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+08:55:56.743 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:55:56.743 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:55:57.518 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+08:55:57.521 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+08:55:57.521 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+08:55:57.724 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+08:55:58.285 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+08:55:58.370 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+08:55:58.630 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:55:58.938 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+08:55:58.960 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+08:56:00.122 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+08:56:00.124 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+08:56:00.124 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+08:56:00.297 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+08:56:00.649 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+08:56:02.094 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+08:56:02.144 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+08:56:02.145 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+08:56:02.314 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-accept 173.113.7.119:9300 register finished
+08:56:02.641 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 7.329 seconds (JVM running for 8.995)
+08:56:02.655 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+08:56:02.656 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.properties, group=DEFAULT_GROUP
+08:56:02.656 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept, group=DEFAULT_GROUP
+08:56:02.657 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept-dev.properties, group=DEFAULT_GROUP
+08:56:05.076 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+08:56:05.098 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+08:56:06.446 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:56:07.646 [main] INFO  c.x.d.b.CrudBaseService - [getDefineEx,164] - 操作异常，请联系管理员:Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+org.springframework.orm.jpa.JpaSystemException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:331)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:241)
+	at com.sun.proxy.$Proxy151.findAll(Unknown Source)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl.findAll(CrudBaseServiceImpl.java:109)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$FastClassBySpringCGLIB$$45c7d8cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$EnhancerBySpringCGLIB$$d7dea0b.findAll(<generated>)
+	at com.xs.cache.DataStructureCache.initCustomerResponseTags(DataStructureCache.java:79)
+	at com.xs.cache.DataStructureCache.initCustomer(DataStructureCache.java:67)
+	at com.xs.cache.DataStructureCache.init(DataStructureCache.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.xs.XrpcModuleProcessApplication.main(XrpcModuleProcessApplication.java:19)
+Caused by: org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:58)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:694)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:144)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:5281)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntityFromEntityEntryLoadedState(TwoPhaseLoad.java:253)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:156)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:126)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1201)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1009)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:967)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set int field com.xs.model.Tag.taglength to null value
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeIntegerFieldAccessorImpl.set(UnsafeIntegerFieldAccessorImpl.java:80)
+	at java.lang.reflect.Field.set(Field.java:764)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:52)
+	... 92 common frames omitted
+08:56:07.649 [main] INFO  c.x.d.b.CrudBaseService - [getDefineEx,165] - Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+org.springframework.orm.jpa.JpaSystemException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:331)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:241)
+	at com.sun.proxy.$Proxy151.findAll(Unknown Source)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl.findAll(CrudBaseServiceImpl.java:109)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$FastClassBySpringCGLIB$$45c7d8cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$EnhancerBySpringCGLIB$$d7dea0b.findAll(<generated>)
+	at com.xs.cache.DataStructureCache.initCustomerResponseTags(DataStructureCache.java:79)
+	at com.xs.cache.DataStructureCache.initCustomer(DataStructureCache.java:67)
+	at com.xs.cache.DataStructureCache.init(DataStructureCache.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.xs.XrpcModuleProcessApplication.main(XrpcModuleProcessApplication.java:19)
+Caused by: org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:58)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:694)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:144)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:5281)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntityFromEntityEntryLoadedState(TwoPhaseLoad.java:253)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:156)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:126)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1201)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1009)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:967)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set int field com.xs.model.Tag.taglength to null value
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeIntegerFieldAccessorImpl.set(UnsafeIntegerFieldAccessorImpl.java:80)
+	at java.lang.reflect.Field.set(Field.java:764)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:52)
+	... 92 common frames omitted
+08:56:07.714 [main] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+08:56:07.715 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+09:12:52.749 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:12:53.204 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:12:53.204 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:12:55.864 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+09:12:55.891 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:12:57.556 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+09:12:57.560 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:12:57.560 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:12:57.781 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:12:57.873 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:12:57.880 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:12:58.295 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:12:58.320 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:12:58.321 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:12:59.738 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+09:12:59.774 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:12:59.775 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:12:59.917 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-accept 173.113.7.119:9300 register finished
+09:13:00.279 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 8.494 seconds (JVM running for 9.887)
+09:13:00.294 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:13:00.295 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.properties, group=DEFAULT_GROUP
+09:13:00.297 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept, group=DEFAULT_GROUP
+09:13:00.297 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept-dev.properties, group=DEFAULT_GROUP
+09:13:00.621 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:13:00.647 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:13:02.585 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:13:02.586 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:13:02.587 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:13:02.789 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:13:03.314 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:13:03.380 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:13:03.579 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:13:05.470 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:13:05.484 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:13:06.456 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:13:07.509 [main] INFO  c.x.d.b.CrudBaseService - [getDefineEx,164] - 操作异常，请联系管理员:Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+org.springframework.orm.jpa.JpaSystemException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:331)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:241)
+	at com.sun.proxy.$Proxy154.findAll(Unknown Source)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl.findAll(CrudBaseServiceImpl.java:109)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$FastClassBySpringCGLIB$$45c7d8cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$EnhancerBySpringCGLIB$$8d1dd284.findAll(<generated>)
+	at com.xs.cache.DataStructureCache.initCustomerResponseTags(DataStructureCache.java:79)
+	at com.xs.cache.DataStructureCache.initCustomer(DataStructureCache.java:67)
+	at com.xs.cache.DataStructureCache.init(DataStructureCache.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.xs.XrpcModuleProcessApplication.main(XrpcModuleProcessApplication.java:19)
+Caused by: org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:58)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:694)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:144)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:5281)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntityFromEntityEntryLoadedState(TwoPhaseLoad.java:253)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:156)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:126)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1201)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1009)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:967)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set int field com.xs.model.Tag.taglength to null value
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeIntegerFieldAccessorImpl.set(UnsafeIntegerFieldAccessorImpl.java:80)
+	at java.lang.reflect.Field.set(Field.java:764)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:52)
+	... 92 common frames omitted
+09:13:07.511 [main] INFO  c.x.d.b.CrudBaseService - [getDefineEx,165] - Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+org.springframework.orm.jpa.JpaSystemException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength; nested exception is org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:331)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:241)
+	at com.sun.proxy.$Proxy154.findAll(Unknown Source)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl.findAll(CrudBaseServiceImpl.java:109)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$FastClassBySpringCGLIB$$45c7d8cc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.xs.db.baseservice.impl.CrudBaseServiceImpl$$EnhancerBySpringCGLIB$$8d1dd284.findAll(<generated>)
+	at com.xs.cache.DataStructureCache.initCustomerResponseTags(DataStructureCache.java:79)
+	at com.xs.cache.DataStructureCache.initCustomer(DataStructureCache.java:67)
+	at com.xs.cache.DataStructureCache.init(DataStructureCache.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.xs.XrpcModuleProcessApplication.main(XrpcModuleProcessApplication.java:19)
+Caused by: org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.xs.datamodel.customer.CustomerResponseTag.taglength] of primitive type setter of com.xs.datamodel.customer.CustomerResponseTag.taglength
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:58)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.setPropertyValues(AbstractEntityTuplizer.java:694)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.setPropertyValues(PojoEntityTuplizer.java:144)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:5281)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntityFromEntityEntryLoadedState(TwoPhaseLoad.java:253)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:156)
+	at org.hibernate.engine.internal.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:126)
+	at org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:1201)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1009)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:967)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set int field com.xs.model.Tag.taglength to null value
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at sun.reflect.UnsafeIntegerFieldAccessorImpl.set(UnsafeIntegerFieldAccessorImpl.java:80)
+	at java.lang.reflect.Field.set(Field.java:764)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:52)
+	... 92 common frames omitted
+09:13:07.595 [main] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+09:13:07.598 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+09:17:06.662 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:17:06.729 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:17:07.158 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:17:07.159 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:17:09.201 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:17:09.222 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:17:10.983 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:17:10.986 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:17:10.986 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:17:11.232 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:17:11.713 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:17:11.791 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:17:12.041 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:17:13.862 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:17:13.875 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:17:14.807 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:17:17.407 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:17:19.029 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:17:19.057 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:17:19.061 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:17:19.209 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+09:17:19.544 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.785 seconds (JVM running for 15.094)
+09:17:19.563 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:17:19.564 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+09:17:19.565 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+09:17:19.565 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+09:17:19.566 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+09:17:19.566 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+09:17:19.750 [RMI TCP Connection(3)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:17:31.763 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:17:32.182 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:17:32.182 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:17:34.122 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+09:17:34.134 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:17:35.161 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+09:17:35.163 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:17:35.163 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:17:35.335 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:17:35.683 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:17:36.977 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+09:17:37.002 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:17:37.002 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:17:37.157 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-accept 173.113.7.119:9300 register finished
+09:17:37.468 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 6.453 seconds (JVM running for 8.042)
+09:17:37.482 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:17:37.483 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.properties, group=DEFAULT_GROUP
+09:17:37.484 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept, group=DEFAULT_GROUP
+09:17:37.484 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept-dev.properties, group=DEFAULT_GROUP
+09:17:59.362 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:17:59.580 [http-nio-9300-exec-1] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:18:03.476 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:19:04.236 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+09:19:04.240 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+09:19:04.259 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+09:19:20.658 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:19:20.713 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:19:21.103 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:19:21.103 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:19:23.237 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:19:23.257 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:19:24.890 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:19:24.891 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:19:24.891 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:19:25.075 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:19:25.532 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:19:25.592 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:19:25.772 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:19:27.570 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:19:27.584 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:19:28.448 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:19:31.275 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:19:32.805 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:19:32.835 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:19:32.835 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:19:32.984 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+09:19:33.308 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.341 seconds (JVM running for 14.894)
+09:19:33.327 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:19:33.327 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+09:19:33.329 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+09:19:33.329 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+09:19:33.330 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+09:19:33.330 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+09:19:33.700 [RMI TCP Connection(3)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:33:11.210 [http-nio-9300-exec-3] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:33:13.708 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:33:23.138 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:35:11.476 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+09:35:11.480 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+09:35:11.788 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+09:35:11.792 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+09:35:11.814 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+09:35:19.833 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:35:19.895 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:35:20.321 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:35:20.322 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:35:23.045 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:35:23.079 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:35:25.539 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:35:25.902 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:35:25.905 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:35:25.905 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:35:26.033 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:35:26.033 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:35:26.122 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:35:26.640 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:35:26.722 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:35:26.946 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:35:28.206 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "dev"
+09:35:28.218 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:35:28.794 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:35:28.808 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:35:29.360 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+09:35:29.361 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:35:29.362 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:35:29.562 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:35:29.856 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:35:29.924 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:35:31.403 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+09:35:31.445 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:35:31.445 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:35:31.608 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-accept 173.113.7.119:9300 register finished
+09:35:31.913 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 7.308 seconds (JVM running for 9.201)
+09:35:31.927 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:35:31.929 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.properties, group=DEFAULT_GROUP
+09:35:31.930 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept, group=DEFAULT_GROUP
+09:35:31.931 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept-dev.properties, group=DEFAULT_GROUP
+09:35:33.022 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:35:34.626 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:35:34.654 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:35:34.654 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:35:34.798 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+09:35:35.127 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 16.12 seconds (JVM running for 17.806)
+09:35:35.150 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:35:35.151 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+09:35:35.152 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+09:35:35.152 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+09:35:35.152 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+09:35:35.153 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+09:35:35.414 [RMI TCP Connection(3)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:38:06.973 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:38:07.186 [http-nio-9300-exec-1] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:38:10.621 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:38:11.768 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:38:23.548 [http-nio-9300-exec-2] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:38:27.721 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:38:28.478 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:39:19.973 [http-nio-9300-exec-4] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:39:24.508 [http-nio-9301-exec-3] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:39:25.034 [http-nio-9301-exec-3] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:42:25.159 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+09:42:25.164 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+09:42:25.189 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+09:42:32.056 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:42:32.116 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:42:32.555 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:42:32.555 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:42:34.621 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:42:34.640 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:42:36.313 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:42:36.314 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:42:36.315 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:42:36.507 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:42:36.971 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:42:37.031 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:42:37.221 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:42:39.033 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:42:39.047 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:42:39.927 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:42:42.957 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:42:44.861 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:42:44.907 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:42:44.907 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:42:45.052 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+09:42:45.396 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 14.092 seconds (JVM running for 15.505)
+09:42:45.414 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:42:45.415 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+09:42:45.416 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+09:42:45.416 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+09:42:45.417 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+09:42:45.417 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+09:42:45.903 [RMI TCP Connection(5)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:42:48.329 [http-nio-9300-exec-6] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:42:51.226 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:42:53.054 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:53:12.369 [http-nio-9300-exec-8] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+09:53:15.135 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:53:16.181 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:09:02.781 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+10:09:02.784 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+10:09:02.807 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+10:09:12.557 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:09:12.612 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:09:12.988 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:09:12.988 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:09:15.105 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:09:15.126 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+10:09:16.795 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:09:16.797 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:09:16.797 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:09:16.981 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:09:17.449 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:09:17.512 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:09:17.728 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:09:19.466 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:09:19.481 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:09:20.359 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:09:23.265 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:09:24.890 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:09:24.926 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:09:24.926 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:09:25.087 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+10:09:25.409 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.589 seconds (JVM running for 15.061)
+10:09:25.428 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+10:09:25.429 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+10:09:25.430 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+10:09:25.430 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+10:09:25.430 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+10:09:25.431 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+10:09:25.795 [RMI TCP Connection(1)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:09:29.063 [http-nio-9300-exec-10] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+10:09:33.038 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+10:09:33.796 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:11:10.519 [http-nio-9300-exec-2] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+10:11:12.770 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+10:11:13.504 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:11:25.337 [http-nio-9300-exec-4] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+10:11:30.037 [http-nio-9301-exec-3] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+10:11:30.766 [http-nio-9301-exec-3] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+15:40:26.228 [http-nio-9300-exec-6] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+15:40:31.320 [http-nio-9301-exec-4] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+15:40:32.246 [http-nio-9301-exec-4] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+15:40:51.042 [http-nio-9300-exec-8] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+15:40:53.891 [http-nio-9301-exec-5] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+15:40:54.498 [http-nio-9301-exec-5] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+15:44:26.995 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+15:44:27.001 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+15:44:27.036 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+15:44:39.490 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:44:39.557 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:44:40.068 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:44:40.068 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:44:42.429 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+15:44:42.457 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+15:44:44.322 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+15:44:44.324 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:44:44.324 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+15:44:44.511 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:44:44.939 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:44:45.003 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+15:44:45.203 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:44:51.565 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+15:44:51.587 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:44:52.560 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:44:55.774 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:44:57.277 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+15:44:57.306 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:44:57.306 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:44:57.462 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+15:44:57.759 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 19.062 seconds (JVM running for 20.857)
+15:44:57.779 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+15:44:57.780 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+15:44:57.781 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+15:44:57.781 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+15:44:57.782 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+15:44:57.782 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+15:44:58.584 [RMI TCP Connection(3)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:45:13.880 [http-nio-9300-exec-10] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+15:45:26.485 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+15:45:35.969 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+17:06:58.918 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+17:06:58.923 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+17:06:58.950 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+17:07:08.572 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+17:07:08.631 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:07:09.047 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+17:07:09.047 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+17:07:11.164 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+17:07:11.188 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+17:07:12.837 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+17:07:12.839 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:07:12.839 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+17:07:13.022 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:07:13.472 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:07:13.528 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+17:07:13.709 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:07:15.465 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+17:07:15.477 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:07:16.359 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:07:19.066 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+17:07:20.580 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+17:07:20.605 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+17:07:20.605 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+17:07:20.750 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+17:07:21.083 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.334 seconds (JVM running for 15.064)
+17:07:21.101 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+17:07:21.102 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+17:07:21.103 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+17:07:21.104 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+17:07:21.104 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+17:07:21.105 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+17:07:21.646 [RMI TCP Connection(4)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:15:57.743 [http-nio-9300-exec-2] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCC
+17:16:00.749 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+17:16:01.938 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCC, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+17:16:57.838 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+17:16:57.841 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+17:16:57.862 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+17:17:04.605 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+17:17:04.661 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:17:05.049 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+17:17:05.049 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+17:17:07.108 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+17:17:07.128 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+17:17:08.794 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+17:17:08.796 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:17:08.796 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+17:17:08.982 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:17:09.434 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:17:09.494 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+17:17:09.713 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:17:11.452 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+17:17:11.465 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+17:17:12.357 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:17:15.084 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+17:17:16.553 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+17:17:16.579 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+17:17:16.579 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+17:17:16.733 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+17:17:17.028 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.173 seconds (JVM running for 14.607)
+17:17:17.049 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+17:17:17.050 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+17:17:17.051 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+17:17:17.051 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+17:17:17.052 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+17:17:17.052 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+17:17:17.595 [RMI TCP Connection(2)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:17:24.205 [http-nio-9300-exec-4] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+17:17:27.745 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+17:17:28.635 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+17:17:42.376 [http-nio-9300-exec-6] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+17:17:44.321 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+17:17:45.053 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+08:35:56.829 [http-nio-9300-exec-7] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+08:35:59.611 [http-nio-9301-exec-3] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+08:36:00.354 [http-nio-9301-exec-3] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+08:55:58.529 [http-nio-9300-exec-9] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+08:56:12.348 [http-nio-9301-exec-4] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+08:56:13.887 [http-nio-9301-exec-4] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+08:56:43.209 [http-nio-9300-exec-1] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+08:56:46.104 [http-nio-9301-exec-5] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+08:56:47.011 [http-nio-9301-exec-5] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:10:04.777 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+09:10:04.780 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+09:10:04.802 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+09:10:12.801 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:10:12.859 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:10:13.263 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:10:13.263 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:10:15.858 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:10:15.892 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:10:18.073 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:10:18.074 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:10:18.075 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:10:18.455 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:10:19.072 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:10:19.187 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:10:19.441 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:10:21.445 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:10:21.489 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:10:22.817 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:10:26.027 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:10:27.790 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:10:27.840 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:10:27.841 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:10:28.001 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+09:10:28.349 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 16.334 seconds (JVM running for 18.14)
+09:10:28.374 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:10:28.375 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+09:10:28.375 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+09:10:28.376 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+09:10:28.376 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+09:10:28.377 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+09:10:28.796 [RMI TCP Connection(3)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:10:50.950 [http-nio-9300-exec-3] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+09:10:53.449 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:11:16.661 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:11:47.464 [http-nio-9300-exec-5] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+09:11:49.918 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:11:50.221 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:15:12.745 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+09:15:12.748 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+09:15:12.764 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+09:15:21.542 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+09:15:21.598 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:15:21.979 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:15:21.980 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:15:24.050 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:15:24.069 [main] INFO  c.a.c.n.c.NacosConfigDataLoader - [logTo,255] - [Nacos Config] Load config[dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP] success
+09:15:25.710 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:15:25.712 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:15:25.712 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:15:25.888 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:15:26.320 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:15:26.382 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:15:26.567 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:15:28.373 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:15:28.388 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:15:29.253 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:15:32.149 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+09:15:33.698 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:15:33.723 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+09:15:33.723 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+09:15:33.868 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP xrpc-module-process 173.113.7.119:9301 register finished
+09:15:34.189 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.392 seconds (JVM running for 14.999)
+09:15:34.207 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-accept.yaml, group=DEFAULT_GROUP
+09:15:34.208 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.properties, group=DEFAULT_GROUP
+09:15:34.209 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process, group=DEFAULT_GROUP
+09:15:34.209 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-datasource.properties, group=DEFAULT_GROUP
+09:15:34.210 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process-dev.properties, group=DEFAULT_GROUP
+09:15:34.210 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,129] - [Nacos Config] Listening config: dataId=xrpc-module-process.yaml, group=DEFAULT_GROUP
+09:15:34.645 [RMI TCP Connection(3)-173.113.7.119] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:16:18.654 [http-nio-9300-exec-7] INFO  c.x.c.FixedLengthController - [handler,46] - 接收XML:TRANNO002 AABBCCDD
+09:16:23.899 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO002
+09:16:28.083 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=AABBCCDD, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO002, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)

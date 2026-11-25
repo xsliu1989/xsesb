@@ -1,0 +1,2141 @@
+09:12:35.163 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:12:36.185 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:12:38.259 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+09:12:38.262 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:12:38.262 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:12:38.547 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:12:38.649 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:12:38.804 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:12:38.877 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:12:38.957 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:12:39.209 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:12:42.635 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:12:43.325 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:12:43.940 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:12:44.359 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:12:45.966 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:12:45.968 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:12:45.968 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:12:46.175 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:12:46.524 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:12:46.600 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:12:46.815 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:12:47.056 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+09:12:47.422 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 13.096 seconds (JVM running for 15.7)
+09:12:48.533 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:12:48.547 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:12:49.760 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:12:52.406 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:12:52.746 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 10.513 seconds (JVM running for 12.124)
+09:13:04.844 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:13:04.900 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+09:14:17.533 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:14:23.969 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+09:14:23.970 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:53:36.631 [http-nio-9300-exec-3] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+09:53:42.228 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+09:53:42.230 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+09:53:50.711 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:53:51.605 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:53:52.882 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+09:53:52.883 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:53:52.883 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:53:53.047 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:53:53.327 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:53:53.383 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:53:53.552 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:54:02.638 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:54:03.475 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:54:04.808 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+09:54:04.809 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:54:04.809 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:54:04.974 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:54:05.057 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:54:05.186 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:54:05.258 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:54:05.278 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+09:54:05.292 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:54:05.322 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:54:05.523 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:54:06.374 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:54:06.483 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:54:07.326 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:54:08.899 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+09:54:09.291 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 19.413 seconds (JVM running for 20.733)
+09:54:09.985 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+09:54:10.335 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 8.51 seconds (JVM running for 10.058)
+09:54:16.776 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:54:16.835 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+09:54:19.538 [http-nio-9301-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:54:22.827 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+09:54:22.828 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:03:06.730 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:03:07.618 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:03:08.967 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:03:08.968 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:03:08.969 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:03:09.150 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:03:09.237 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:03:09.376 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:03:09.443 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:03:09.503 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:03:09.684 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:03:13.131 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:03:13.891 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:03:16.567 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:03:16.895 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 11.016 seconds (JVM running for 12.413)
+10:03:23.787 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:03:24.606 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:03:25.930 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:03:25.931 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:03:25.932 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:03:26.093 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:03:26.349 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:03:26.402 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:03:26.560 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:03:28.202 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:03:28.215 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:03:29.317 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:03:31.996 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:03:32.330 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 9.28 seconds (JVM running for 10.925)
+10:03:39.414 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:03:39.473 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:03:42.977 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:03:45.523 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:05:27.066 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:05:38.954 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:05:47.201 [http-nio-9300-exec-4] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO0011</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:05:53.496 [http-nio-9301-exec-3] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO0011
+10:05:55.476 [http-nio-9301-exec-3] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO0011, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:14:21.209 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+10:14:21.563 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+10:14:28.914 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:14:29.796 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:14:31.116 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:14:31.117 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:14:31.118 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:14:31.278 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:14:31.542 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:14:31.596 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:14:31.761 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:14:35.319 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:14:35.333 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:14:36.338 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:14:38.833 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:14:39.163 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 11.094 seconds (JVM running for 12.457)
+10:14:47.629 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:14:48.468 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:14:49.719 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:14:49.720 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:14:49.720 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:14:49.884 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:14:49.968 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:14:50.089 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:14:50.152 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:14:50.210 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:14:50.368 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:14:51.232 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:14:51.941 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:14:54.445 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:14:54.774 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 7.95 seconds (JVM running for 9.251)
+10:15:24.397 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:15:24.450 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:15:26.797 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:15:28.554 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:15:32.735 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:18:49.872 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:18:54.253 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:18:54.254 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:53:10.635 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:53:11.550 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:53:13.020 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+10:53:13.022 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:53:13.022 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:53:13.188 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:53:13.286 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:53:13.483 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:53:13.568 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:53:13.631 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:53:13.813 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:53:17.849 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:53:19.029 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:53:21.586 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:53:22.553 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:53:22.688 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+10:53:23.129 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 13.358 seconds (JVM running for 14.845)
+10:53:23.951 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:53:23.953 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:53:23.953 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:53:24.194 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:53:24.451 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:53:24.501 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:53:24.661 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:53:26.255 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:53:26.268 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:53:27.289 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:53:29.748 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:53:30.079 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 9.453 seconds (JVM running for 11.162)
+10:58:35.148 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:58:35.210 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:58:37.683 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:58:39.781 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:58:39.781 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:59:02.971 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+10:59:06.504 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:59:06.505 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+11:00:02.673 [http-nio-9300-exec-4] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+11:00:07.140 [http-nio-9301-exec-4] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+11:00:07.140 [http-nio-9301-exec-4] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+11:02:58.515 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+11:02:58.882 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+11:03:06.090 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:03:06.960 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+11:03:08.344 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+11:03:08.346 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:03:08.346 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:03:08.510 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:03:08.778 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:03:08.835 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:03:09.019 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:03:13.213 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:03:13.668 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+11:03:13.682 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:03:14.154 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+11:03:14.884 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:03:15.710 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+11:03:15.712 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:03:15.713 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:03:15.898 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:03:15.996 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:03:16.132 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+11:03:16.200 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:03:16.264 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:03:16.450 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:03:17.423 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:03:17.708 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+11:03:18.089 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 12.852 seconds (JVM running for 14.289)
+11:03:18.257 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:03:21.023 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+11:03:21.334 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 9.1 seconds (JVM running for 10.538)
+11:04:04.955 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:04:05.010 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+11:04:07.720 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:04:08.928 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+11:04:08.930 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+11:07:03.799 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+11:08:16.495 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+11:08:16.496 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+11:13:16.468 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+11:13:28.186 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+11:13:29.094 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+11:13:30.519 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+11:13:30.523 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:13:30.524 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:13:30.715 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:13:30.975 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:13:31.035 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:13:31.199 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:13:32.739 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+11:13:32.754 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:13:33.785 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:13:36.174 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+11:13:36.483 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 9.166 seconds (JVM running for 10.91)
+11:13:58.013 [http-nio-9300-exec-4] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+11:14:00.952 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:14:02.394 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+11:14:02.394 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+11:14:43.228 [http-nio-9300-exec-5] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+11:14:47.543 [http-nio-9301-exec-3] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+11:14:47.543 [http-nio-9301-exec-3] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+11:17:23.279 [http-nio-9300-exec-7] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+11:17:27.928 [http-nio-9301-exec-4] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+11:17:27.929 [http-nio-9301-exec-4] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:23:05.685 [http-nio-9300-exec-9] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:23:09.177 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:23:09.178 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:24:05.531 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:24:09.800 [http-nio-9301-exec-5] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:24:09.800 [http-nio-9301-exec-5] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:25:45.950 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:25:46.869 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+14:25:48.299 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+14:25:48.300 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:25:48.301 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:25:48.482 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:25:48.842 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:25:48.910 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:25:49.122 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:25:50.589 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+14:25:50.603 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:25:52.143 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:25:52.451 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:25:53.497 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+14:25:54.810 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+14:25:55.015 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+14:25:55.017 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:25:55.017 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:25:55.187 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:25:55.200 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 10.145 seconds (JVM running for 11.607)
+14:25:55.272 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:25:55.403 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+14:25:55.470 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:25:55.541 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:25:55.762 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:25:56.770 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:25:57.533 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:26:00.002 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+14:26:00.340 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 8.901 seconds (JVM running for 10.446)
+14:27:10.945 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:27:11.015 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:27:14.878 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:27:15.840 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:27:15.841 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:28:06.779 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:28:09.910 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:28:09.912 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:31:46.784 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+14:31:47.186 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+14:31:54.209 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:31:55.089 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+14:31:56.463 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+14:31:56.465 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:31:56.465 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:31:56.631 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:31:56.719 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:31:56.870 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+14:31:56.970 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:31:57.053 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:31:57.264 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:31:58.150 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:31:59.325 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:32:00.961 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:32:01.895 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+14:32:02.158 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+14:32:02.547 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 9.177 seconds (JVM running for 10.64)
+14:32:03.317 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+14:32:03.319 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:32:03.319 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:32:03.487 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:32:03.762 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:32:03.815 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:32:03.973 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:32:05.150 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+14:32:05.162 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:32:06.096 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:32:08.369 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+14:32:08.681 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 8.615 seconds (JVM running for 10.277)
+14:39:30.488 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:39:30.548 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:39:33.941 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:39:35.469 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:39:35.469 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:40:17.082 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:40:21.565 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:40:21.566 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+14:47:05.269 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:47:06.123 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+14:47:07.492 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+14:47:07.494 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:47:07.494 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:47:07.658 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:47:07.921 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:47:07.982 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:47:08.155 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:47:09.420 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+14:47:09.436 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:47:10.508 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:47:13.070 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+14:47:13.469 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 8.998 seconds (JVM running for 10.445)
+14:47:16.004 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:47:16.837 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+14:47:18.094 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+14:47:18.095 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:47:18.095 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:47:18.254 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:47:18.335 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:47:18.458 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+14:47:18.521 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:47:18.578 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:47:18.743 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:47:19.479 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:47:20.207 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:47:22.541 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+14:47:22.858 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 7.66 seconds (JVM running for 9.111)
+14:47:56.300 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:47:56.362 [http-nio-9300-exec-1] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+14:47:58.869 [http-nio-9301-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:48:00.070 [http-nio-9301-exec-2] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+14:48:00.071 [http-nio-9301-exec-2] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+15:41:46.664 [http-nio-9300-exec-2] INFO  c.x.c.XmlController - [handler,37] - 接收XML:<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<tranNo>TRANNO001</tranNo>
+    <data>
+<transaction><header>
+   <msg>
+      <callTyp>SYN</callTyp>
+      <ip>62.107.227.59</ip>
+      <msgCd>H500000050</msgCd>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <refCallTyp></refCallTyp>
+      <refMsgCd></refMsgCd>
+      <refSeqNb></refSeqNb>
+      <refSndAppCd></refSndAppCd>
+      <refSndDt></refSndDt>
+      <refSndMbrCd></refSndMbrCd>
+      <seqNb>111106500000497</seqNb>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </msg>
+   <pnt>
+      <rcvAppCd>DBK</rcvAppCd>
+      <rcvMbrCd>1000</rcvMbrCd>
+      <sndAppCd>001</sndAppCd>
+      <sndDt>20220113</sndDt>
+      <sndMbrCd>WEX0</sndMbrCd>
+      <sndTm>111106</sndTm>
+   </pnt>
+   <status>
+      <appCd>DBK</appCd>
+      <desc></desc>
+      <location></location>
+      <mbrCd>1000</mbrCd>
+      <retCd></retCd>
+   </status>
+</header><body><request>
+   <applNo>01</applNo>
+   <orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId>
+   <idTyp></idTyp>
+   <idNo></idNo>
+   <telPhn></telPhn>
+   <cusNo></cusNo>
+   <email></email>
+   <cusNm></cusNm>
+</request></body></transaction>
+</data>
+</message>
+15:41:49.358 [http-nio-9301-exec-3] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+15:41:49.359 [http-nio-9301-exec-3] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data=<transaction><header><msg><ip>62.107.227.59</ip><refSndDt/><refSeqNb/><sndTm>111106</sndTm><refCallTyp/><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><refMsgCd/><msgCd>H500000050</msgCd><seqNb>111106500000497</seqNb><sndAppCd>001</sndAppCd><refSndMbrCd/><refSndAppCd/><callTyp>SYN</callTyp></msg><pnt><sndDt>20220113</sndDt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndTm>111106</sndTm><rcvAppCd>DBK</rcvAppCd><rcvMbrCd>1000</rcvMbrCd></pnt><status><mbrCd>1000</mbrCd><retCd/><appCd>DBK</appCd><location/><desc/></status></header><body><request><orderId>ouDYpwq6KMvJ-lsSPaFbxjCzt8C0</orderId><idTyp/><applNo>01</applNo><telPhn/><cusNm/><cusNo/><idNo/><email/></request></body></transaction>, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+15:43:13.259 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:43:13.260 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:43:13.260 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:43:13.260 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:43:13.260 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:43:13.260 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:43:13.261 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:43:13.261 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:43:13.266 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:43:13.267 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:43:29.453 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:43:30.026 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:43:30.514 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:43:31.136 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:43:31.549 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:43:31.912 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:43:32.649 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:43:33.613 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:43:46.378 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:43:46.379 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:44:33.642 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:44:37.595 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:44:37.596 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:44:37.596 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:44:37.597 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:44:37.597 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:44:37.597 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:44:37.597 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:44:37.598 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:44:37.598 [http-nio-9300-exec-8] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:44:51.321 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:44:51.501 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:44:51.501 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:44:51.501 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:44:51.502 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:44:51.502 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:44:51.502 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:44:51.502 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:45:57.365 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:45:57.366 [http-nio-9300-exec-10] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:46:57.785 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:46:57.787 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:46:57.787 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:46:57.787 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:46:57.787 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:46:57.788 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:46:57.788 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:46:57.788 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:46:58.641 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:46:58.642 [http-nio-9300-exec-2] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:47:40.953 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:47:40.953 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:47:40.954 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:47:40.954 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:47:40.954 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:47:40.954 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:47:40.955 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:47:40.955 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:47:44.377 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:47:44.377 [http-nio-9300-exec-4] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:48:49.365 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+15:49:02.087 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:49:02.978 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+15:49:04.341 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+15:49:04.342 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:49:04.342 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+15:49:04.510 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:49:04.776 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:49:04.833 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+15:49:05.001 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:49:10.842 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+15:49:10.856 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:49:11.848 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:49:14.379 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+15:49:14.695 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 13.489 seconds (JVM running for 15.049)
+15:49:58.857 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,46] - handel收到请求报文交易号:null
+15:49:58.857 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,47] - Data:null
+15:49:58.857 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,48] - Timestamp:null
+15:49:58.858 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,49] - Nonce:null
+15:49:58.858 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,50] - Sign:null
+15:49:58.858 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,51] - Key:null
+15:49:58.858 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,52] - Token:null
+15:49:58.858 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,53] - Version:null
+15:50:00.737 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,88] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.DefaultController.handler(DefaultController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+15:50:00.738 [http-nio-9300-exec-6] INFO  c.x.c.DefaultController - [handler,93] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)
+15:50:32.906 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+15:50:47.791 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:50:48.670 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+15:50:50.075 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+15:50:50.076 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:50:50.076 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+15:50:50.238 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:50:50.318 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:50:50.444 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+15:50:50.522 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:50:50.583 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+15:50:50.743 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:50:51.591 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:50:52.330 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:50:54.835 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+15:50:55.158 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 8.239 seconds (JVM running for 9.886)
+15:51:11.903 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:54:18.377 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+15:54:30.123 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:54:30.952 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+15:54:32.243 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+15:54:32.245 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:54:32.245 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+15:54:32.411 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:54:32.491 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:54:32.617 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+15:54:32.682 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:54:32.736 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+15:54:32.899 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:54:33.744 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+15:54:34.476 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:54:37.005 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+15:54:37.316 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 7.941 seconds (JVM running for 9.708)
+15:54:42.581 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:01:42.348 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+16:01:54.558 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+16:01:55.405 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+16:01:56.669 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+16:01:56.671 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:01:56.671 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+16:01:56.830 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:01:56.909 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:01:57.030 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+16:01:57.095 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:01:57.150 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+16:01:57.328 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:01:58.183 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+16:01:58.924 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:02:01.469 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+16:02:01.795 [main] INFO  c.x.XrpcModuleAcceptHttpApplication - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 8.03 seconds (JVM running for 9.815)
+16:02:07.500 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:26:44.327 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,49] - handel收到请求报文交易号:null
+17:26:44.351 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,50] - Data:null
+17:26:44.351 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,51] - Timestamp:null
+17:26:44.351 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,52] - Nonce:null
+17:26:44.352 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,53] - Sign:null
+17:26:44.352 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,54] - Key:null
+17:26:44.358 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,55] - Token:null
+17:26:44.358 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,56] - Version:null
+17:26:44.375 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,91] - 处理异常
+java.lang.NullPointerException: null
+	at com.xs.filter.impl.filter1.check(filter1.java:25)
+	at com.xs.controller.JsonController.handler(JsonController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+17:26:44.379 [http-nio-9300-exec-1] INFO  c.x.c.JsonController - [handler,96] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=null, timefly=null, data=, key=null, version=null, sign=null)

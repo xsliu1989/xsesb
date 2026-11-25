@@ -1,0 +1,8 @@
+path:
+  cportpath: E:\xsesb\cPort\cPort.json
+  logconfigpath: E:\xsesb\logConfig\logConfig.json
+
+url:
+  xrpc-module-accept-http: http://localhost:9300
+  xrpc-module-process: http://localhost:9301/defaultController
+  xrpc-module-send-tcp: http://localhost:9305

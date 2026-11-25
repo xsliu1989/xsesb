@@ -1,0 +1,28 @@
+server:
+  port: 9521
+
+spring:
+  application:
+    name: xrpc-admin
+  datasource:
+    url: jdbc:mysql://192.168.2.111:3306/esb_platform?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: root234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+
+esb:
+  admin:
+    jwt:
+      secret: ${ADMIN_JWT_SECRET:xrpc-admin-demo-secret-change-me-in-production-123456}
+      expire-hours: 12
+  # 方案 A：留空；升级方案 B 时填入各 ESB 实例刷新端点
+  refresh:
+    endpoints: ${ESB_REFRESH_ENDPOINTS:}
+  effect-mode: ${ESB_EFFECT_MODE:RESTART_REQUIRED}

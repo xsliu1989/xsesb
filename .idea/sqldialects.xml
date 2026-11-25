@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sql/01-business-metadata-tables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/02-admin-tables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/03-init-data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/04-demo-data.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/06-挡板联调-TRANNO001.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/all-in-one-ascii.sql" dialect="MySQL" />
+  </component>
+</project>

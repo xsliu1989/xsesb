@@ -1,0 +1,145 @@
+09:58:46.697 [background-preinit] INFO  o.h.v.i.util.Version  - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+09:58:47.986 [main] INFO  c.x.XrpcModuleAcceptHttpApplication  - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+09:58:49.760 [main] INFO  o.a.c.h.Http11NioProtocol  - [log,173] - Initializing ProtocolHandler ["http-nio-9300"]
+09:58:49.762 [main] INFO  o.a.c.c.StandardService  - [log,173] - Starting service [Tomcat]
+09:58:49.763 [main] INFO  o.a.c.c.StandardEngine  - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+09:58:49.991 [main] INFO  o.a.c.c.C.[.[.[/]  - [log,173] - Initializing Spring embedded WebApplicationContext
+09:58:50.107 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure  - [dataSource,56] - Init DruidDataSource
+09:58:50.262 [main] INFO  c.a.d.p.DruidDataSource  - [init,930] - {dataSource-1} inited
+09:58:50.340 [main] INFO  o.h.j.i.u.LogHelper  - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:58:50.434 [main] INFO  o.hibernate.Version  - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+09:58:50.695 [main] INFO  o.h.a.common.Version  - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:58:51.657 [main] INFO  o.h.dialect.Dialect  - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+09:58:52.543 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator  - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:58:55.239 [main] INFO  o.a.c.h.Http11NioProtocol  - [log,173] - Starting ProtocolHandler ["http-nio-9300"]
+09:58:55.585 [main] INFO  c.x.XrpcModuleAcceptHttpApplication  - [logStarted,61] - Started XrpcModuleAcceptHttpApplication in 9.864 seconds (JVM running for 12.674)
+10:06:28.978 [http-nio-9300-exec-1] INFO  o.a.c.c.C.[.[.[/]  - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:08:02.335 [http-nio-9300-exec-1] INFO  c.x.c.JsonController d85250c5df7c4f789ef8e88bb62e757d - [info,23] - CustomerReq(token=null, nonce=null, timestamp=null, channel=TT, data={"transaction":{"header":{"msg":{"sndDt":"20220113","sndMbrCd":"WEX0","ip":"62.107.227.59","msgCd":"H500000050","seqNb":"182****0753","sndAppCd":"001","sndTm":"111106","callTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000"},"pnt":{"sndDt":"20220113","sndMbrCd":"WEX0","sndAppCd":"001","sndTm":"111106","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK"}},"body":{"request":{"orderId":"李**182****7765","applNo":"01"}}}}, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null)
+10:08:04.533 [http-nio-9300-exec-1] INFO  c.x.c.JsonController d85250c5df7c4f789ef8e88bb62e757d - [handler,111] - 处理异常
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9301/defaultController": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:791)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:717)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:443)
+	at com.xs.controller.JsonController.handler(JsonController.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:782)
+	... 56 common frames omitted
+10:08:04.534 [http-nio-9300-exec-1] INFO  c.x.c.JsonController d85250c5df7c4f789ef8e88bb62e757d - [handler,116] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=9999, message=I/O error on POST request for "http://localhost:9301/defaultController": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect, timefly=null, data=, key=null, version=null, sign=null)
+10:08:18.673 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:08:19.593 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:08:21.017 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:08:21.019 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:08:21.019 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:08:21.193 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:08:21.479 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:08:21.541 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:08:21.706 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:08:23.168 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:08:23.197 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:08:24.220 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:08:26.743 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:08:27.119 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 9.437 seconds (JVM running for 11.288)
+10:08:33.338 [http-nio-9300-exec-3] INFO  c.x.c.JsonController 0c50ced208c54024830eed678641caee - [info,23] - CustomerReq(token=null, nonce=null, timestamp=null, channel=TT, data={"transaction":{"header":{"msg":{"sndDt":"20220113","sndMbrCd":"WEX0","ip":"62.107.227.59","msgCd":"H500000050","seqNb":"182****0753","sndAppCd":"001","sndTm":"111106","callTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000"},"pnt":{"sndDt":"20220113","sndMbrCd":"WEX0","sndAppCd":"001","sndTm":"111106","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK"}},"body":{"request":{"orderId":"李**182****7765","applNo":"01"}}}}, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null)
+10:08:33.419 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:08:34.436 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:08:34.441 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data={"transaction":{"header":{"msg":{"sndDt":"20220113","sndMbrCd":"WEX0","ip":"62.107.227.59","msgCd":"H500000050","seqNb":"18253270753","sndAppCd":"001","sndTm":"111106","callTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000"},"pnt":{"sndDt":"20220113","sndMbrCd":"WEX0","sndAppCd":"001","sndTm":"111106","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK"}},"body":{"request":{"orderId":"李红张棚18253277765","applNo":"01"}}}}, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:08:37.084 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,82] - 第三方返回数据:<transaction><header><msg><msgCd>H500000051</msgCd><callTyp>SYN</callTyp><ip>62.107.227.59</ip><seqNb>111106500000497</seqNb><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndDt>20220113</sndDt><sndTm>104303</sndTm><rcvMbrCd>1000</rcvMbrCd><rcvAppCd>DBK</rcvAppCd><refMsgCd>H500000050</refMsgCd><refCallTyp>SYN</refCallTyp><refSndMbrCd>WEX0</refSndMbrCd><refSndAppCd>001</refSndAppCd><refSndDt>20220113</refSndDt><refSeqNb>111106500000497</refSeqNb></msg><pnt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndDt>20220113</sndDt><sndTm>104303</sndTm><rcvMbrCd>1000</rcvMbrCd><rcvAppCd>DBK</rcvAppCd></pnt><status><retCd>000000</retCd><desc>�����������</desc><location/><mbrCd>1000</mbrCd><appCd>DBK</appCd></status></header><body><response><cusNo>1005229578</cusNo><telPhn>20066660011</telPhn><email></email><realNm>����</realNm><idTyp>01</idTyp><idNo>362426197701291316</idNo><curState>00</curState><sex>1</sex><fixPhn></fixPhn><fmlyAddr/><emrgPersNm/><emrgPersPhn></emrgPersPhn><proTyp></proTyp><coNm/><coAddr/><annualIncm></annualIncm><fmlyYrIncm></fmlyYrIncm><houseFlg></houseFlg><houseVal></houseVal><loanFlg></loanFlg><loanRemainAmt></loanRemainAmt><answerSeq/><memo/><eAcct>6224124200016165</eAcct><eAcctBal>0.00</eAcctBal><backupa/><funca></funca><backupb/><funcb></funcb><resDesc/><verFlg>1</verFlg><revokeFlg></revokeFlg><redeemFlg></redeemFlg><prodFlg>1</prodFlg><loanMode></loanMode><handPhoto>1</handPhoto><dpstTyp/><prodSta></prodSta><oldTelPhn/><transtyp>0</transtyp><useTyp>0</useTyp><rcmdPerPhn></rcmdPerPhn></response></body></transaction>
+10:09:12.913 [http-nio-9300-exec-3] INFO  c.x.c.JsonController 0c50ced208c54024830eed678641caee - [handler,116] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=null, message=null, timefly=null, data={"transaction":{"body":{"response":{"fmlyYrIncm":"","rcmdPerPhn":"","prodSta":"","loanFlg":"","resDesc":"","idTyp":"01","proTyp":"","dpstTyp":"","prodFlg":"1","memo":"","funca":"","funcb":"","handPhoto":"1","cusNo":"1005229578","idNo":"362426197701291316","oldTelPhn":"","backupa":"","coAddr":"","revokeFlg":"","emrgPersPhn":"","houseFlg":"","houseVal":"","email":"","annualIncm":"","verFlg":"1","emrgPersNm":"","loanRemainAmt":"","coNm":"","sex":"1","telPhn":"20066660011","curState":"00","fixPhn":"","backupb":"","useTyp":"0","answerSeq":"","eAcctBal":"0.00","eAcct":"6224124200016165","fmlyAddr":"","realNm":"����","loanMode":"","transtyp":"0","redeemFlg":""}},"header":{"msg":{"ip":"62.107.227.59","refSndDt":"20220113","sndTm":"104303","refSeqNb":"111106500000497","refCallTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000","sndMbrCd":"WEX0","sndDt":"20220113","refMsgCd":"H500000050","msgCd":"H500000051","seqNb":"111106500000497","sndAppCd":"001","refSndMbrCd":"WEX0","refSndAppCd":"001","callTyp":"SYN"},"pnt":{"sndAppCd":"001","sndMbrCd":"WEX0","sndDt":"20220113","sndTm":"104303","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK","location":"","retCd":"000000","desc":"�����������"}}}}, key=null, version=null, sign=null)
+10:11:44.078 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed
+10:11:51.672 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:11:52.531 [main] INFO  c.x.XrpcModuleProcessApplication - [logStartupProfileInfo,637] - The following 2 profiles are active: "datasource", "dev"
+10:11:53.789 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9301"]
+10:11:53.791 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:11:53.791 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.76]
+10:11:53.952 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:11:54.206 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:11:54.261 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.15.Final
+10:11:54.427 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:11:55.782 [main] INFO  c.a.d.p.DruidDataSource - [init,930] - {dataSource-1} inited
+10:11:55.795 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+10:11:56.758 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:11:59.171 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9301"]
+10:11:59.510 [main] INFO  c.x.XrpcModuleProcessApplication - [logStarted,61] - Started XrpcModuleProcessApplication in 8.675 seconds (JVM running for 10.401)
+10:12:33.899 [http-nio-9300-exec-5] INFO  c.x.c.JsonController 5621cc6adf2f4390981510e4c1c6cc78 - [info,23] - CustomerReq(token=null, nonce=null, timestamp=null, channel=TT, data={"transaction":{"header":{"msg":{"sndDt":"20220113","sndMbrCd":"WEX0","ip":"62.107.227.59","msgCd":"H500000050","seqNb":"182****0753","sndAppCd":"001","sndTm":"111106","callTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000"},"pnt":{"sndDt":"20220113","sndMbrCd":"WEX0","sndAppCd":"001","sndTm":"111106","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK"}},"body":{"request":{"orderId":"李**182****7765","applNo":"01"}}}}, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null)
+10:12:34.016 [http-nio-9301-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:12:35.957 [http-nio-9301-exec-1] INFO  c.x.c.ConfigAction - [execute,49] - 交易开始TRANNO001
+10:12:35.959 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,31] - 接收到的DTO数据:Dto(token=null, nonce=null, timestamp=null, data={"transaction":{"header":{"msg":{"sndDt":"20220113","sndMbrCd":"WEX0","ip":"62.107.227.59","msgCd":"H500000050","seqNb":"18253270753","sndAppCd":"001","sndTm":"111106","callTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000"},"pnt":{"sndDt":"20220113","sndMbrCd":"WEX0","sndAppCd":"001","sndTm":"111106","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK"}},"body":{"request":{"orderId":"李红张棚18253277765","applNo":"01"}}}}, returndata=null, key=null, version=null, sign=null, tranNo=TRANNO001, smSign=null, map={}, customer_req_map=null, customer_res_map=null, provider_req_map=null, provider_res_map=null, customerTransactionInfo=null, providerTransactionInfo=null, provider_url=null, code=null, message=null, timefly=null)
+10:12:46.203 [http-nio-9301-exec-1] INFO  c.x.s.DefaultAbstractService - [execute,82] - 第三方返回数据:<transaction><header><msg><msgCd>H500000051</msgCd><callTyp>SYN</callTyp><ip>62.107.227.59</ip><seqNb>111106500000497</seqNb><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndDt>20220113</sndDt><sndTm>104303</sndTm><rcvMbrCd>1000</rcvMbrCd><rcvAppCd>DBK</rcvAppCd><refMsgCd>H500000050</refMsgCd><refCallTyp>SYN</refCallTyp><refSndMbrCd>WEX0</refSndMbrCd><refSndAppCd>001</refSndAppCd><refSndDt>20220113</refSndDt><refSeqNb>111106500000497</refSeqNb></msg><pnt><sndMbrCd>WEX0</sndMbrCd><sndAppCd>001</sndAppCd><sndDt>20220113</sndDt><sndTm>104303</sndTm><rcvMbrCd>1000</rcvMbrCd><rcvAppCd>DBK</rcvAppCd></pnt><status><retCd>000000</retCd><desc>�����������</desc><location/><mbrCd>1000</mbrCd><appCd>DBK</appCd></status></header><body><response><cusNo>1005229578</cusNo><telPhn>20066660011</telPhn><email></email><realNm>����</realNm><idTyp>01</idTyp><idNo>362426197701291316</idNo><curState>00</curState><sex>1</sex><fixPhn></fixPhn><fmlyAddr/><emrgPersNm/><emrgPersPhn></emrgPersPhn><proTyp></proTyp><coNm/><coAddr/><annualIncm></annualIncm><fmlyYrIncm></fmlyYrIncm><houseFlg></houseFlg><houseVal></houseVal><loanFlg></loanFlg><loanRemainAmt></loanRemainAmt><answerSeq/><memo/><eAcct>6224124200016165</eAcct><eAcctBal>0.00</eAcctBal><backupa/><funca></funca><backupb/><funcb></funcb><resDesc/><verFlg>1</verFlg><revokeFlg></revokeFlg><redeemFlg></redeemFlg><prodFlg>1</prodFlg><loanMode></loanMode><handPhoto>1</handPhoto><dpstTyp/><prodSta></prodSta><oldTelPhn/><transtyp>0</transtyp><useTyp>0</useTyp><rcmdPerPhn></rcmdPerPhn></response></body></transaction>
+10:12:50.582 [http-nio-9300-exec-5] INFO  c.x.c.JsonController 5621cc6adf2f4390981510e4c1c6cc78 - [handler,116] - handel返回报文:CustomerRes(resultcode=null, resultmessage=null, code=null, message=null, timefly=null, data={"transaction":{"body":{"response":{"fmlyYrIncm":"","rcmdPerPhn":"","prodSta":"","loanFlg":"","resDesc":"","idTyp":"01","proTyp":"","dpstTyp":"","prodFlg":"1","memo":"","funca":"","funcb":"","handPhoto":"1","cusNo":"1005229578","idNo":"362426197701291316","oldTelPhn":"","backupa":"","coAddr":"","revokeFlg":"","emrgPersPhn":"","houseFlg":"","houseVal":"","email":"","annualIncm":"","verFlg":"1","emrgPersNm":"","loanRemainAmt":"","coNm":"","sex":"1","telPhn":"20066660011","curState":"00","fixPhn":"","backupb":"","useTyp":"0","answerSeq":"","eAcctBal":"0.00","eAcct":"6224124200016165","fmlyAddr":"","realNm":"����","loanMode":"","transtyp":"0","redeemFlg":""}},"header":{"msg":{"ip":"62.107.227.59","refSndDt":"20220113","sndTm":"104303","refSeqNb":"111106500000497","refCallTyp":"SYN","rcvAppCd":"DBK","rcvMbrCd":"1000","sndMbrCd":"WEX0","sndDt":"20220113","refMsgCd":"H500000050","msgCd":"H500000051","seqNb":"111106500000497","sndAppCd":"001","refSndMbrCd":"WEX0","refSndAppCd":"001","callTyp":"SYN"},"pnt":{"sndAppCd":"001","sndMbrCd":"WEX0","sndDt":"20220113","sndTm":"104303","rcvAppCd":"DBK","rcvMbrCd":"1000"},"status":{"mbrCd":"1000","appCd":"DBK","location":"","retCd":"000000","desc":"�����������"}}}}, key=null, version=null, sign=null)
+10:48:29.056 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource  - [close,1825] - {dataSource-1} closed
+10:48:29.345 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1825] - {dataSource-1} closed

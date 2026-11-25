@@ -1,0 +1,36 @@
+# Tomcat
+server:
+  port: 9301
+
+# Spring
+spring: 
+  application:
+    # 应用名称
+    name: xrpc-module-process
+  profiles:
+    # 环境配置
+    active: dev
+    include: datasource,static
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+#  cloud:
+#    nacos:
+#      discovery:
+#        # 服务注册地址
+#        server-addr: 127.0.0.1:8848
+#      config:
+#        # 配置中心地址
+#        server-addr: 127.0.0.1:8848
+#        # 配置文件格式
+#        file-extension: yaml
+#        # 共享配置
+#        #shared-configs:
+#        #  - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+#  config:
+#    import:
+#      - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+#      - optional:nacos:xrpc-module-accept.${spring.cloud.nacos.config.file-extension}

@@ -1,0 +1,14 @@
+# Tomcat
+server:
+  port: 9304
+
+# Spring
+spring: 
+  application:
+    # 应用名称
+    name: xrpc-module-accept-tcp-dc
+  profiles:
+    # 环境配置
+    active: dev
+    include: static
+

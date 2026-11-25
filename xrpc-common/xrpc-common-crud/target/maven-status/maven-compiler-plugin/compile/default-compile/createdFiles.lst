@@ -1,0 +1,10 @@
+com\xs\db\dao\DaoRepository.class
+com\xs\db\dao\MyJpaRepositoryFactoryBean$MyJpaRepositoryFactory.class
+com\xs\controller\bean\CParams.class
+com\xs\db\dao\MyJpaRepositoryFactoryBean.class
+com\xs\controller\bean\CResult.class
+com\xs\controller\CrudBaseController.class
+com\xs\db\dao\impl\DaoRepositoryImpl.class
+com\xs\db\baseservice\impl\CrudBaseServiceImpl.class
+com\xs\db\baseservice\CrudBaseService.class
+com\xs\db\specification\SimpleSpecificationByBean.class
