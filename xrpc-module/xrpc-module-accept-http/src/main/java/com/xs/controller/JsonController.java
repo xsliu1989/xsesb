@@ -79,9 +79,9 @@ public class JsonController {
             qdto.setNonce(customerReq.getNonce());
 
 
-            logUtil.info(LogType.F3REQ, log, customerRes.toString());
+            logUtil.info(LogType.F3REQ, log, qdto.toString());
             Dto rdto = restTemplate.postForObject(Static.processurl,  qdto,  Dto.class);
-            logUtil.info(LogType.F3RES, log, customerRes.toString());
+            logUtil.info(LogType.F3RES, log, rdto.toString());
 
             customerRes.setCode(rdto.getCode());
             customerRes.setMessage(rdto.getMessage());

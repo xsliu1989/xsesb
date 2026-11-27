@@ -4,7 +4,6 @@ com\xs\datasource\DruidDataSourceConfig.class
 com\xs\service\impl\DefaultService.class
 com\xs\service\DefaultAbstractService.class
 com\xs\util\StringMapServe.class
-com\xs\service\DefaultAbstractServiceRedis.class
 com\xs\config\MapContant.class
 com\xs\datasource\MyJpaRepositoryFactoryBean.class
 com\xs\service\Service.class

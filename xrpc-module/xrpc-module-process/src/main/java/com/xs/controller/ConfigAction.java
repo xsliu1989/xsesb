@@ -5,7 +5,6 @@ import com.xs.cache.DataStructureCache;
 import com.xs.context.SpringContext;
 import com.xs.menu.LogType;
 import com.xs.service.DefaultAbstractService;
-import com.xs.service.DefaultAbstractServiceRedis;
 import com.xs.service.Service;
 import com.xs.datamodel.customer.CustomerTransactionInfo;
 import com.xs.dto.Dto;

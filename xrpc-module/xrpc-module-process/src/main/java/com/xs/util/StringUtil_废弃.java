@@ -44,14 +44,14 @@ public class StringUtil_废弃 {
 
                 // 当起始位置为0时候
                 if (start == 0) {
-                    len += String.valueOf(c).getBytes("GBK").length;
+                    len += String.valueOf(c).getBytes("UTF-8").length;
                     if (len <= count)
                         buff.append(c);
                     else
                         break;
                 } else {
                     // 截取字符串从非0位置开始
-                    len += String.valueOf(c).getBytes("GBK").length;
+                    len += String.valueOf(c).getBytes("UTF-8").length;
                     if (len >= start && len <= start + count) {
                         buff.append(c);
                     }

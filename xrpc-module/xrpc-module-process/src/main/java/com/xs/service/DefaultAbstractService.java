@@ -9,32 +9,29 @@ import com.xs.menu.LogType;
 import com.xs.model.Tag;
 import com.xs.serve.LogUtil;
 import com.xs.serve.OKHTTPUtil;
+import com.xs.serve.SerializeUtil;
+import com.xs.serve.StructureUtil;
 import com.xs.util.MapConvert;
 import com.xs.util.MapUtil;
+import com.xs.util.RedisUtils;
 import com.xs.util.StringMapServe;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.List;
 
 public abstract  class DefaultAbstractService implements Service<Dto> {
 
     private final static Logger log = (Logger) LoggerFactory.getLogger(DefaultAbstractService.class);
     private static LogUtil logUtil;
 
-    public HashMap<String,Object> customer_req_map;
-    public HashMap<String,Object> provider_req_map;
-    public HashMap<String, Object> provider_res_map;
-    public HashMap<String, Object> customer_res_map;
-    public Dto dto;
-
-    /**
-
-     *
-     * @param dtoo
-     * @throws DefineException
-     */
+    protected HashMap<String,Object> customer_req_map;
+    protected HashMap<String,Object> provider_req_map;
+    protected HashMap<String, Object> provider_res_map;
+    protected HashMap<String, Object> customer_res_map;
+    protected Dto dto;
 
     @Override
     public void execute(Dto dtoo) throws DefineException {
@@ -43,29 +40,31 @@ public abstract  class DefaultAbstractService implements Service<Dto> {
             logUtil.info(LogType.ZH_SERVE, log, "进入DefaultAbstractService转换主程序:" + dto.toString());
 
             // 取得消费者系统接口信息（含：请求接口号、请求类型（json/xml）、处理服务名、处理Filter服务名）
-            CustomerTransactionInfo customerTransactionInfo = DataStructureCache.customerTransactionInfoMap.get(dto.getTranNo());
+            CustomerTransactionInfo customerTransactionInfo = StructureUtil.getCusInfo(dto.getTranNo());
             // 取得源系统的请求TAG信息
-            List<Tag> customerRequestTags = DataStructureCache.customerRequestTagMap.get(dto.getTranNo());
+            List<Tag> customerRequestTags = StructureUtil.getCusReq(dto.getTranNo());
             // 取得源系统的返回TAG信息
-            List<Tag> customerResponseTags = DataStructureCache.customerResponseTagMap.get(dto.getTranNo());
+            List<Tag> customerResponseTags = StructureUtil.getCusRes(dto.getTranNo());
+
 
 
             // 取得消息提供者接口信息 (含：请求接口号、请求类型（json/xml）)
-            DataStructureCache.providerTransactionInfoMap.entrySet().stream().forEach((entry) -> {
-                ProviderTransactionInfo p = entry.getValue();
-                if (p.getCustomerTranNo().equals(dto.getTranNo())) {
-                    dto.setProviderTransactionInfo(entry.getValue());
-                }
-            });
+//            DataStructureCache.providerTransactionInfoMap.entrySet().stream().forEach((entry) -> {
+//                ProviderTransactionInfo p = entry.getValue();
+//                if (p.getCustomerTranNo().equals(dto.getTranNo())) {
+//                    dto.setProviderTransactionInfo(entry.getValue());
+//                }
+//            });
 
-            ProviderTransactionInfo providerTransactionInfo = (ProviderTransactionInfo) dto.getProviderTransactionInfo();
+            ProviderTransactionInfo providerTransactionInfo = StructureUtil.getProInfo(dto.getTranNo());
+            dto.setProviderTransactionInfo(providerTransactionInfo);
             //        ProviderTransactionInfo providerTransactionInfo =DataStructureCache.providerTransactionInfoMap.get(dto.getTranNo());
 
             // 取得消息提供者系统的请求TAG信息
-            List<Tag> providerRequestTags = DataStructureCache.providerRequestTagMap.get(providerTransactionInfo.getProviderTranNo());
+            List<Tag> providerRequestTags = StructureUtil.getProReq(providerTransactionInfo.getProviderTranNo());
 
             // 取得消息提供者系统的请求TAG信息
-            List<Tag> providerResponseTags = DataStructureCache.providerResponseTagMap.get(providerTransactionInfo.getProviderTranNo());
+            List<Tag> providerResponseTags = StructureUtil.getProRes(providerTransactionInfo.getProviderTranNo());
 
 
 
@@ -78,6 +77,8 @@ public abstract  class DefaultAbstractService implements Service<Dto> {
             update_customer_req_map();
             logUtil.info(LogType.ZH_SERVE, log, "requestHM  ==>  Customer_Req_MAP" + customer_req_map.toString());
 
+            // 从请求报文中回填 nonce/timestamp/channel/digestAlgorithm 到 Dto（源自 esb-service 版）
+            this.filter(customerRequestTags);
 
             /** Customer_Req_MAP ==> Provider_Req_MAP **/
             provider_req_map = new MapConvert().mapperMap(providerTransactionInfo.getProviderTranNo(), customer_req_map, providerRequestTags);
@@ -105,7 +106,7 @@ public abstract  class DefaultAbstractService implements Service<Dto> {
             code_message_to_dto();
 
             /** response_map  ==> provider_res_map **/
-            provider_res_map = new MapConvert().mapperMap(dto.getTranNo(), response_map, providerResponseTags);
+            provider_res_map = new MapConvert().mapperMap(providerTransactionInfo.getProviderTranNo(), response_map, providerResponseTags);
             update_provider_res_map();
 
             /** provider_res_map ==> customer_res_map **/
@@ -125,9 +126,30 @@ public abstract  class DefaultAbstractService implements Service<Dto> {
 
     }
 
+
     /**
-     * 修改前置的map
+     * 从请求报文中回填 nonce/timestamp/channel/digestAlgorithm 到 Dto（源自 esb-service 版）
      */
+    public void filter(List<Tag> customerRequestTags){
+        for (Tag tag : customerRequestTags) {
+
+            if(tag.getTagflag().equals("nonce")){
+                String nonce = MapUtil.getVal(customer_req_map, tag.getTagMapping(), "").toString();
+                this.dto.setNonce(nonce);
+            } else if(tag.getTagflag().equals("timestamp")){
+                String timestamp = MapUtil.getVal(customer_req_map, tag.getTagMapping(), "").toString();
+                this.dto.setTimestamp(timestamp);
+            } else if(tag.getTagflag().equals("channel")){
+                String channel = MapUtil.getVal(customer_req_map, tag.getTagMapping(), "").toString();
+                this.dto.setChannelType(channel);
+            } else if(tag.getTagflag().equals("digestAlgorithm")){
+                String digestAlgorithm = MapUtil.getVal(customer_req_map, tag.getTagMapping(), "").toString();
+                this.dto.setDigestAlgorithm(digestAlgorithm);
+            }
+        }
+    }
+
+
     public abstract void update_customer_req_map() ;
     public abstract void update_provider_req_map() ;
     public abstract void update_provider_res_map() ;
@@ -140,3 +162,5 @@ public abstract  class DefaultAbstractService implements Service<Dto> {
 
 
 
+
+//

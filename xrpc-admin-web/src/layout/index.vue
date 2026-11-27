@@ -67,9 +67,9 @@ const user = useUserStore()
 const groupedMenus: { name: string; children: { path: string; title: string }[] }[] = [
   { name: '总览', children: [{ path: '/dashboard', title: '工作台' }] },
   { name: '配置中心', children: [
-    { path: '/config/channels', title: '渠道系统' },
+    { path: '/config/channels', title: '渠道系统信息' },
     { path: '/config/customer-transactions', title: '渠道接口' },
-    { path: '/config/provider-transactions', title: '数据源接口' },
+    { path: '/config/provider-transactions', title: '数据源系统信息' },
     { path: '/config/tags', title: 'Tag 配置' },
     { path: '/config/mapping', title: '字段映射' },
     { path: '/config/samples', title: '报文样例' },

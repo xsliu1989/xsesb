@@ -39,7 +39,7 @@ UPDATE `esb_provider_transaction_info`
 DELETE FROM `esb_customer_request_tag` WHERE `customertranno` = 'TRANNO001';
 INSERT INTO `esb_customer_request_tag`
  (`customertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- ('TRANNO001','transaction','TRANNO001','transaction','Object','',1,'TOP',NULL),
+ ('TRANNO001','transaction','TRANNO001','transaction','Object','',1,'',NULL),
  ('TRANNO001','header','TRANNO001.transaction','transaction.header','Object','',1,'',NULL),
  ('TRANNO001','msg','TRANNO001.transaction.header','transaction.header.msg','Object','',1,'',NULL),
  ('TRANNO001','seqNb','TRANNO001.transaction.header.msg','transaction.header.msg.seqNb','String','',1,'nonce',NULL),
@@ -52,7 +52,7 @@ INSERT INTO `esb_customer_request_tag`
 DELETE FROM `esb_provider_request_tag` WHERE `providertranno` = 'P001';
 INSERT INTO `esb_provider_request_tag`
  (`providertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- ('P001','transaction','P001','transaction','Object','',1,'TOP',NULL),
+ ('P001','transaction','P001','transaction','Object','',1,'',NULL),
  ('P001','header','P001.transaction','transaction.header','Object','',1,'',NULL),
  ('P001','msg','P001.transaction.header','transaction.header.msg','Object','',1,'',NULL),
  ('P001','seqNb','P001.transaction.header.msg','transaction.header.msg.seqNb','String','',1,'',NULL),
@@ -65,7 +65,7 @@ INSERT INTO `esb_provider_request_tag`
 DELETE FROM `esb_provider_response_tag` WHERE `providertranno` = 'P001';
 INSERT INTO `esb_provider_response_tag`
  (`providertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- ('P001','response','P001','transaction','Object','',1,'TOP',NULL),
+ ('P001','response','P001','transaction','Object','',1,'',NULL),
  ('P001','retCd','P001.response','transaction.header.status.retCd','String','',1,'code',NULL),
  ('P001','desc','P001.response','transaction.header.status.desc','String','',2,'message',NULL);
 
@@ -73,7 +73,7 @@ INSERT INTO `esb_provider_response_tag`
 DELETE FROM `esb_customer_response_tag` WHERE `customertranno` = 'TRANNO001';
 INSERT INTO `esb_customer_response_tag`
  (`customertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- ('TRANNO001','response','TRANNO001','response','Object','',1,'TOP',NULL),
+ ('TRANNO001','response','TRANNO001','response','Object','',1,'',NULL),
  ('TRANNO001','returnCode','TRANNO001.response','response.retCd','String','',1,'code',NULL),
  ('TRANNO001','returnMess','TRANNO001.response','response.desc','String','',2,'message',NULL);
 

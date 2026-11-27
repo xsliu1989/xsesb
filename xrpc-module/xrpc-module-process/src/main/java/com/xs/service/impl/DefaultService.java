@@ -6,7 +6,6 @@ import com.xs.datamodel.provider.ProviderTransactionInfo;
 import com.xs.model.Tag;
 import com.xs.serve.LogUtil;
 import com.xs.service.DefaultAbstractService;
-import com.xs.service.DefaultAbstractServiceRedis;
 import com.xs.util.MapUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,7 +20,7 @@ import java.util.stream.Collectors;
 import com.xs.exception.DefineException;
 @Service(value = "defaultService")
 @Scope(value = "prototype")
-public class DefaultService extends DefaultAbstractServiceRedis {
+public class DefaultService extends DefaultAbstractService {
 
 
     private final static Logger log = (Logger) LoggerFactory.getLogger(DefaultService.class);

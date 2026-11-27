@@ -60,7 +60,7 @@ public class OKHTTPUtil {
         }
 
         public static String postFormStr(String url, String type, String params) throws DefineException {
-            return OKHTTPUtil.postFormStr(url, type, "UFT-8", params);
+            return OKHTTPUtil.postFormStr(url, type, "UTF-8", params);
         }
 
         public static String postFormStr(String url,String type, String codeType, String params) throws DefineException {
@@ -85,9 +85,31 @@ public class OKHTTPUtil {
                 return respBody;
             } catch (Exception e) {
                 log.error(e.getMessage(), e);
-                e.printStackTrace();
+                if (isConnectFailure(e)) {
+                    // 第三方（挡板）未启动、连接被拒或连接/读取超时：给出明确提示
+                    throw new DefineException("8004", "第三方连接未启动或超时", e);
+                }
                 throw new DefineException("865","转换失败,请检查配置或上送格式");
             }
+        }
+
+        /** 判断是否为第三方连接不通（未启动/拒绝/超时），兼容 OkHttp 对底层异常的包装 */
+        private static boolean isConnectFailure(Throwable e) {
+            Throwable t = e;
+            while (t != null) {
+                if (t instanceof java.net.ConnectException
+                        || t instanceof java.net.SocketTimeoutException
+                        || t instanceof java.net.UnknownHostException) {
+                    return true;
+                }
+                String msg = t.getMessage();
+                if (msg != null && (msg.contains("Failed to connect") || msg.contains("Connection refused")
+                        || msg.contains("timeout") || msg.contains(" Timed out"))) {
+                    return true;
+                }
+                t = t.getCause();
+            }
+            return false;
         }
 
         public static String postFormBody(String url,String type, HashMap<String, String> params) throws DefineException {

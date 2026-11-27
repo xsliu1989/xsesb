@@ -4,7 +4,6 @@ F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\controller\Confi
 F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\datasource\DruidDataSourceConfig.java
 F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\datasource\MyJpaRepositoryFactoryBean.java
 F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\service\DefaultAbstractService.java
-F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\service\DefaultAbstractServiceRedis.java
 F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\service\impl\DefaultService.java
 F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\service\impl\UpdateUrlDefalutService.java
 F:\testesb\xrpc-module\xrpc-module-process\src\main\java\com\xs\service\Service.java

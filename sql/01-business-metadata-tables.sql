@@ -9,8 +9,8 @@ USE `esb_platform`;
 -- 1. 渠道系统（请求发起方）
 CREATE TABLE IF NOT EXISTS `esb_customer_sysname` (
   `id`      INT NOT NULL AUTO_INCREMENT,
-  `systype` VARCHAR(64)  DEFAULT NULL COMMENT '系统类型',
-  `sysname` VARCHAR(128) DEFAULT NULL COMMENT '渠道标识',
+  `systype` VARCHAR(64)  DEFAULT NULL COMMENT '渠道编号（缓存 key，如 CH01）',
+  `sysname` VARCHAR(128) DEFAULT NULL COMMENT '渠道中文名称',
   `flag`    VARCHAR(8)   DEFAULT 'true' COMMENT '是否启用 true/false',
   `size`    VARCHAR(16)  DEFAULT NULL COMMENT '渠道最大并发',
   `str1`    VARCHAR(255) DEFAULT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `esb_customer_sysname` (
   `str4`    VARCHAR(255) DEFAULT NULL,
   `str5`    VARCHAR(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `idx_customer_sysname_name` (`sysname`)
+  KEY `idx_customer_sysname_systype` (`systype`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='渠道系统定义';
 
 -- 2. 渠道接口（交易码）
@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `esb_provider_transaction_info` (
   `datatype`        VARCHAR(16)  DEFAULT NULL COMMENT 'json/xml/dc',
   `sendurl`         VARCHAR(512) DEFAULT NULL COMMENT '发送地址',
   `sysname`         VARCHAR(128) DEFAULT NULL COMMENT '目标系统名称',
-  `codeType`        VARCHAR(32)  DEFAULT NULL COMMENT '编码 UTF-8/GBK',
+  `codeType`        VARCHAR(32)  DEFAULT NULL COMMENT '编码，统一 UTF-8',
   `str1`            VARCHAR(255) DEFAULT NULL,
   `str2`            VARCHAR(255) DEFAULT NULL,
   `str3`            VARCHAR(255) DEFAULT NULL,

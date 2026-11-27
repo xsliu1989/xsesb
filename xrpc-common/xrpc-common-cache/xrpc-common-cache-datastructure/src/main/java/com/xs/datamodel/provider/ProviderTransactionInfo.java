@@ -34,7 +34,7 @@ public class ProviderTransactionInfo implements Serializable {
     @Column(name = "sysname")
     private String sysName;
 
-    // 使用的编码Utf-8或者是GBK
+    // 使用的编码，统一 UTF-8
     @Column(name = "codeType")
     private String codeType;
 

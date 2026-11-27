@@ -42,9 +42,9 @@ import { dashboardApi } from '@/api'
 
 const data = ref<any>({})
 const cards = computed(() => [
-  { title: '渠道系统', value: data.value.channelCount || 0 },
+  { title: '渠道系统信息', value: data.value.channelCount || 0 },
   { title: '渠道接口', value: data.value.customerTranCount || 0 },
-  { title: '数据源接口', value: data.value.providerTranCount || 0 },
+  { title: '数据源系统信息', value: data.value.providerTranCount || 0 },
   { title: '已上架接口', value: data.value.openedCount || 0 },
   { title: '今日调用量', value: data.value.todayCalls || 0 },
   { title: '成功率', value: data.value.successRate || '-' }

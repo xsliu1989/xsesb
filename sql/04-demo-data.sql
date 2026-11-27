@@ -23,13 +23,13 @@ INSERT IGNORE INTO `esb_customer_transaction_info`
 INSERT IGNORE INTO `esb_provider_transaction_info`
  (`id`,`providertranno`,`customertranno`,`datatype`,`sendurl`,`sysname`,`codeType`) VALUES
  (1,'P001','TRANNO001','json','http://127.0.0.1:8080/api/trade','C系统','UTF-8'),
- (2,'P002','TRANNO002','xml','http://127.0.0.1:8081/api/trade','D系统','GBK'),
- (3,'P003','TRANNO003','dc','tcp://127.0.0.1:8888','E系统','GBK');
+ (2,'P002','TRANNO002','xml','http://127.0.0.1:8081/api/trade','D系统','UTF-8'),
+ (3,'P003','TRANNO003','dc','tcp://127.0.0.1:8888','E系统','UTF-8');
 
 -- ---------- 渠道请求 Tag（归属键 = tranno） ----------
 INSERT IGNORE INTO `esb_customer_request_tag`
  (`id`,`customertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- (1,'TRANNO001','transaction','TRANNO001','transaction','Object','',1,'TOP',NULL),
+ (1,'TRANNO001','transaction','TRANNO001','transaction','Object','',1,'',NULL),
  (2,'TRANNO001','header','TRANNO001.transaction','transaction.header','Object','',1,'',NULL),
  (3,'TRANNO001','msg','TRANNO001.transaction.header','transaction.header.msg','Object','',1,'',NULL),
  (4,'TRANNO001','seqNb','TRANNO001.transaction.header.msg','transaction.header.msg.seqNb','String','',1,'nonce',NULL),
@@ -41,14 +41,14 @@ INSERT IGNORE INTO `esb_customer_request_tag`
 -- ---------- 渠道响应 Tag ----------
 INSERT IGNORE INTO `esb_customer_response_tag`
  (`id`,`customertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- (9,'TRANNO001','response','TRANNO001','response','Object','',1,'TOP',NULL),
+ (9,'TRANNO001','response','TRANNO001','response','Object','',1,'',NULL),
  (10,'TRANNO001','returnCode','TRANNO001.response','response.returnCode','String','',1,'code',NULL),
  (11,'TRANNO001','returnMess','TRANNO001.response','response.returnMess','String','',2,'message',NULL);
 
 -- ---------- 数据源请求 Tag（归属键 = providertranno，即 P001） ----------
 INSERT IGNORE INTO `esb_provider_request_tag`
  (`id`,`providertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- (12,'P001','transaction','P001','transaction','Object','',1,'TOP',NULL),
+ (12,'P001','transaction','P001','transaction','Object','',1,'',NULL),
  (13,'P001','header','P001.transaction','transaction.header','Object','',1,'',NULL),
  (14,'P001','msg','P001.transaction.header','transaction.header.msg','Object','',1,'',NULL),
  (15,'P001','seqNb','P001.transaction.header.msg','transaction.header.msg.seqNb','String','',1,'',NULL),
@@ -59,7 +59,7 @@ INSERT IGNORE INTO `esb_provider_request_tag`
 -- ---------- 数据源响应 Tag ----------
 INSERT IGNORE INTO `esb_provider_response_tag`
  (`id`,`providertranno`,`tagname`,`parenttag`,`tagmapping`,`tagtype`,`tagvalue`,`sort`,`tagflag`,`taglength`) VALUES
- (19,'P001','response','P001','response','Object','',1,'TOP',NULL),
+ (19,'P001','response','P001','response','Object','',1,'',NULL),
  (20,'P001','retCd','P001.response','response.retCd','String','',1,'code',NULL),
  (21,'P001','retMsg','P001.response','response.retMsg','String','',2,'message',NULL);
 
@@ -76,7 +76,7 @@ INSERT IGNORE INTO `esb_key_store` (`id`,`channel`,`key_type`,`fingerprint`,`cip
 -- ---------- TCP 端口映射 ----------
 INSERT IGNORE INTO `esb_cport_config`
  (`id`,`trannos`,`address`,`port`,`charset`,`fixedlength`,`type`) VALUES
- (1,'TRANNO003','127.0.0.1',8888,'GBK',6,'DC');
+ (1,'TRANNO003','127.0.0.1',8888,'UTF-8',6,'DC');
 
 -- ---------- 交易日志 ----------
 INSERT IGNORE INTO `esb_tran_log`

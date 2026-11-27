@@ -2,7 +2,7 @@ import type { TagNode } from '@/utils/tagTree'
 
 type Row = Record<string, any>
 
-const KEY = 'xrpc-admin-mock-db-v1'
+const KEY = 'xrpc-admin-mock-db-v2'
 
 function tag(id: number, ownerType: string, ownerKey: string, tagName: string, parentTag: string, tagMapping: string, tagType: string, sort: number, extra: Partial<TagNode> = {}): Row {
   return { id, ownerType, ownerKey, tagName, parentTag, tagMapping, tagType, sort, tagValue: '', tagflag: '', taglength: null, ...extra }
@@ -10,19 +10,19 @@ function tag(id: number, ownerType: string, ownerKey: string, tagName: string, p
 
 function seed(): any {
   const channels: Row[] = [
-    { id: 1, systype: 'CHANNEL', sysname: 'CH01', flag: 'true', size: '100', str1: '渠道A', str2: '', str3: '', str4: '', str5: '' },
-    { id: 2, systype: 'CHANNEL', sysname: 'CH02', flag: 'true', size: '50', str1: '渠道B', str2: '', str3: '', str4: '', str5: '' },
-    { id: 3, systype: 'CHANNEL', sysname: 'CH03', flag: 'false', size: '20', str1: '渠道C（停用）', str2: '', str3: '', str4: '', str5: '' }
+    { id: 1, systype: 'CH01', sysname: '渠道A', flag: 'true', size: '100', str1: '模拟渠道CH01', str2: '', str3: '', str4: '', str5: '' },
+    { id: 2, systype: 'CH02', sysname: '渠道B', flag: 'true', size: '50', str1: '渠道B', str2: '', str3: '', str4: '', str5: '' },
+    { id: 3, systype: 'CH03', sysname: '渠道C（停用）', flag: 'false', size: '20', str1: '渠道C（停用）', str2: '', str3: '', str4: '', str5: '' }
   ]
   const customerTransactions: Row[] = [
-    { id: 1, tranNo: 'TRANNO001', sysName: 'CH01,CH02', clazz: 'defaultService', isCryption: 'true', isOpen: 'true', size: '100' },
+    { id: 1, tranNo: 'TRANNO001', sysName: 'CH01', clazz: 'defaultService', isCryption: 'true', isOpen: 'true', size: '100' },
     { id: 2, tranNo: 'TRANNO002', sysName: 'CH01', clazz: 'defaultService', isCryption: 'false', isOpen: 'true', size: '50' },
     { id: 3, tranNo: 'TRANNO003', sysName: 'CH02', clazz: 'defaultService', isCryption: 'false', isOpen: 'false', size: '30' }
   ]
   const providerTransactions: Row[] = [
     { id: 1, providerTranNo: 'P001', customerTranNo: 'TRANNO001', dataType: 'json', sendUrl: 'http://127.0.0.1:8080/api/trade', sysName: 'C系统', codeType: 'UTF-8' },
-    { id: 2, providerTranNo: 'P002', customerTranNo: 'TRANNO002', dataType: 'xml', sendUrl: 'http://127.0.0.1:8081/api/trade', sysName: 'D系统', codeType: 'GBK' },
-    { id: 3, providerTranNo: 'P003', customerTranNo: 'TRANNO003', dataType: 'dc', sendUrl: 'tcp://127.0.0.1:8888', sysName: 'E系统', codeType: 'GBK' }
+    { id: 2, providerTranNo: 'P002', customerTranNo: 'TRANNO002', dataType: 'xml', sendUrl: 'http://127.0.0.1:8081/api/trade', sysName: 'D系统', codeType: 'UTF-8' },
+    { id: 3, providerTranNo: 'P003', customerTranNo: 'TRANNO003', dataType: 'dc', sendUrl: 'tcp://127.0.0.1:8888', sysName: 'E系统', codeType: 'UTF-8' }
   ]
   const tags: Row[] = [
     // 渠道请求
@@ -63,7 +63,7 @@ function seed(): any {
     { id: 5, code: '06987', message: '报文转化错误', module: 'process', suggestion: '检查四类 Tag 配置' }
   ]
   const cport: Row[] = [
-    { id: 1, trannos: 'TRANNO003', address: '127.0.0.1', port: 8888, charset: 'GBK', fixedlength: 6, type: 'DC' }
+    { id: 1, trannos: 'TRANNO003', address: '127.0.0.1', port: 8888, charset: 'UTF-8', fixedlength: 6, type: 'DC' }
   ]
   const keys: Row[] = [
     { id: 1, channel: 'CH01', keyType: 'SM2', fingerprint: 'A1:B2:C3:D4:E5:F6', cipherRef: 'kms://sm2/CH01', status: 'ENABLE', expireTime: '2027-01-01' },

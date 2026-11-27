@@ -1,7 +1,6 @@
 package com.xs.service.impl;
 
 import com.xs.datamodel.provider.ProviderTransactionInfo;
-import com.xs.service.DefaultAbstractService;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 

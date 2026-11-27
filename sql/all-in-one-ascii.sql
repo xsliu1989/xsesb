@@ -19,8 +19,8 @@ USE `esb_platform`;
 
 CREATE TABLE IF NOT EXISTS `esb_customer_sysname` (
   `id`      INT NOT NULL AUTO_INCREMENT,
-  `systype` VARCHAR(64)  DEFAULT NULL,
-  `sysname` VARCHAR(128) DEFAULT NULL,
+  `systype` VARCHAR(64)  DEFAULT NULL COMMENT 'channel code, cache key (e.g. CH01)',
+  `sysname` VARCHAR(128) DEFAULT NULL COMMENT 'channel display name',
   `flag`    VARCHAR(8)   DEFAULT 'true',
   `size`    VARCHAR(16)  DEFAULT NULL,
   `str1`    VARCHAR(255) DEFAULT NULL,
@@ -29,13 +29,13 @@ CREATE TABLE IF NOT EXISTS `esb_customer_sysname` (
   `str4`    VARCHAR(255) DEFAULT NULL,
   `str5`    VARCHAR(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `idx_customer_sysname_name` (`sysname`)
+  KEY `idx_customer_sysname_systype` (`systype`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 CREATE TABLE IF NOT EXISTS `esb_customer_transaction_info` (
   `id`          INT NOT NULL AUTO_INCREMENT,
   `tranno`      VARCHAR(64)  DEFAULT NULL,
-  `sysname`     VARCHAR(255) DEFAULT NULL,
+  `sysname`     VARCHAR(255) DEFAULT NULL COMMENT 'allowed channel code, single value only',
   `clazz`       VARCHAR(128) DEFAULT NULL,
   `iscryption`  VARCHAR(8)   DEFAULT 'false',
   `isOpen`      VARCHAR(8)   DEFAULT 'false',

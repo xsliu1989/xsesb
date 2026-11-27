@@ -30,7 +30,7 @@ const visible = ref(false)
 const current = ref<any>(null)
 const perms = ref<any[]>([
   { permName: '配置中心', children: [
-    { permName: '渠道系统' }, { permName: '渠道接口' }, { permName: '数据源接口' },
+    { permName: '渠道系统信息' }, { permName: '渠道接口' }, { permName: '数据源系统信息' },
     { permName: 'Tag 配置' }, { permName: '字段映射' }, { permName: '发布管理' }
   ] },
   { permName: '运行监控', children: [{ permName: '交易日志' }, { permName: '在线调试' }, { permName: '缓存状态' }] },

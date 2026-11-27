@@ -147,7 +147,7 @@ public class NioServer {
             System.out.println("message:" + message);
             // 处理接收到的消息
 
-            String response = OKHTTPUtil.postFormStr(Static.accepthttpurl,"json", "utf-8",message);
+            String response = OKHTTPUtil.postFormStr(Static.accepthttpurl,"json", "UTF-8",message);
 
             // 回复消息给客户端
 //            String response = "Response from server";

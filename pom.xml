@@ -58,6 +58,10 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <!-- 全项目统一 UTF-8：源码读取、编译输出、报告输出都固定为 UTF-8，
+             避免中文 Windows 默认 GBK 编译导致字符串常量乱码 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
 </project>

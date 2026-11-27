@@ -73,7 +73,6 @@
                   <el-form-item label="字符集">
                     <el-select v-model="tcp.charset" style="width: 100%">
                       <el-option label="UTF-8" value="UTF-8" />
-                      <el-option label="GBK" value="GBK" />
                     </el-select>
                   </el-form-item>
                 </el-col>
@@ -166,15 +165,10 @@
               <el-descriptions-item label="耗时">{{ response.costMs }} ms</el-descriptions-item>
             </el-descriptions>
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px">
-              <span class="section-title" style="margin: 0">响应报文</span>
-              <div>
-                <el-button link type="primary" size="small" @click="pretty = !pretty">
-                  {{ pretty ? '原始' : '格式化 JSON' }}
-                </el-button>
-                <el-button link type="primary" size="small" @click="copy(response.body)">复制</el-button>
-              </div>
+              <span class="section-title" style="margin: 0">响应报文（后端原样返回）</span>
+              <el-button link type="primary" size="small" @click="copy(response.body)">复制</el-button>
             </div>
-            <pre class="code-block response-block">{{ displayBody }}</pre>
+            <pre class="code-block response-block">{{ response.body }}</pre>
             <div v-if="response.headers" class="section-title" style="margin-top: 12px">响应元信息</div>
             <pre v-if="response.headers" class="code-block">{{ response.headers }}</pre>
           </template>
@@ -215,7 +209,7 @@ const HTTP_PRESETS: any = {
 const TCP_PRESETS: any = {
   JSON: { host: '127.0.0.1', port: 9999, charset: 'UTF-8' },
   XML: { host: '127.0.0.1', port: 9997, charset: 'UTF-8' },
-  DC: { host: '127.0.0.1', port: 9998, charset: 'GBK' }
+  DC: { host: '127.0.0.1', port: 9998, charset: 'UTF-8' }
 }
 
 const protocol = ref<'http' | 'tcp'>('http')
@@ -224,7 +218,6 @@ const tcp = reactive({ host: '127.0.0.1', port: 9999, charset: 'UTF-8', lengthWi
 const builder = reactive({ tranNo: 'TRANNO001', channel: 'CH01', nonce: '', timestamp: '', data: '{"transaction":{"header":{"msg":{"seqNb":"111106500000497"}},"body":{"request":{"orderId":"O123"}}}}' })
 const response = ref<any>(null)
 const sending = ref(false)
-const pretty = ref(false)
 const history = ref<any[]>([])
 
 const currentBody = computed({
@@ -232,19 +225,6 @@ const currentBody = computed({
   set: (v: string) => { if (protocol.value === 'http') http.body = v; else tcp.body = v }
 })
 const bodyLength = computed(() => currentBody.value.length)
-const displayBody = computed(() => {
-  if (!response.value?.body) return ''
-  if (!pretty.value) return response.value.body
-  try {
-    const parsed = JSON.parse(response.value.body)
-    return JSON.stringify(parsed, null, 2)
-  } catch {
-    // 尝试截取长度头之后的 JSON
-    const m = String(response.value.body).match(/^\d{4,}([\s\S]*)$/)
-    if (m) { try { return JSON.stringify(JSON.parse(m[1]), null, 2) } catch { /* ignore */ } }
-    return response.value.body
-  }
-})
 
 function pad(n: number, len = 2) { return String(n).padStart(len, '0') }
 function genNonce() {
@@ -320,7 +300,7 @@ async function send() {
     if (protocol.value === 'http') {
       response.value = await simulatorApi.http({
         url: http.url, data: currentBody.value, contentType: http.contentType,
-        charset: http.contentType.includes('GBK') ? 'GBK' : 'UTF-8', timeout: http.timeout
+        charset: 'UTF-8', timeout: http.timeout
       })
     } else {
       response.value = await simulatorApi.tcp({

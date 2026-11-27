@@ -5,10 +5,10 @@
       <p class="text-muted">配置 Tag 源数据 / 目标数据、渠道与数据源接口</p>
       <el-form :model="form" label-width="70px" @keyup.enter="submit">
         <el-form-item label="账号"><el-input v-model="form.username" placeholder="admin" /></el-form-item>
-        <el-form-item label="密码"><el-input v-model="form.password" type="password" placeholder="任意密码（演示）" /></el-form-item>
+        <el-form-item label="密码"><el-input v-model="form.password" type="password" placeholder="admin123" /></el-form-item>
         <el-button type="primary" style="width: 100%" :loading="loading" @click="submit">登录</el-button>
       </el-form>
-      <p class="text-muted" style="margin-top: 16px">演示模式：任意账号密码均可登录</p>
+      <p class="text-muted" style="margin-top: 16px">默认账号：admin / admin123</p>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import { useUserStore } from '@/store/user'
 
-const form = reactive({ username: 'admin', password: 'demo' })
+const form = reactive({ username: 'admin', password: 'admin123' })
 const loading = ref(false)
 const user = useUserStore()
 const router = useRouter()

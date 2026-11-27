@@ -27,8 +27,11 @@ request.interceptors.response.use(
     return body && body.data !== undefined ? body.data : body
   },
   (err) => {
-    if (err.response?.status === 401) {
+    const status = err.response?.status
+    if (status === 401 || status === 403) {
+      // 403 兼容旧后端：未认证时返回空 403，同样按登录失效处理
       ElMessage.error('登录已过期，请重新登录')
+      useUserStore().logout()
       router.push('/login')
     }
     return Promise.reject(err)

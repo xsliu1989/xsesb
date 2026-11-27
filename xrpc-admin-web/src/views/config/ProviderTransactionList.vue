@@ -1,6 +1,6 @@
 <template>
   <CrudPage
-    title="数据源接口"
+    title="数据源系统信息"
     description="维护目标系统接口、协议与地址（对应 esb_provider_transaction_info）"
     :api="api"
     :columns="columns"
@@ -26,7 +26,7 @@ const fields = [
   { prop: 'customerTranNo', label: '关联渠道交易码', placeholder: 'TRANNO001' },
   { prop: 'sysName', label: '目标系统' },
   { prop: 'dataType', label: '协议', options: [{ value: 'json', label: 'json' }, { value: 'xml', label: 'xml' }, { value: 'dc', label: 'dc（定长）' }], default: 'json' },
-  { prop: 'codeType', label: '编码', options: [{ value: 'UTF-8', label: 'UTF-8' }, { value: 'GBK', label: 'GBK' }], default: 'UTF-8' },
+  { prop: 'codeType', label: '编码', options: [{ value: 'UTF-8', label: 'UTF-8' }], default: 'UTF-8' },
   { prop: 'sendUrl', label: '发送地址', placeholder: 'http://host:port/path' }
 ]
 </script>

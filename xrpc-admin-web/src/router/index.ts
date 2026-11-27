@@ -10,9 +10,9 @@ const routes: RouteRecordRaw[] = [
     redirect: '/dashboard',
     children: [
       { path: 'dashboard', component: () => import('@/views/dashboard/index.vue'), meta: { title: '工作台', icon: 'DataBoard' } },
-      { path: 'config/channels', component: () => import('@/views/config/ChannelList.vue'), meta: { title: '渠道系统', group: '配置中心' } },
+      { path: 'config/channels', component: () => import('@/views/config/ChannelList.vue'), meta: { title: '渠道系统信息', group: '配置中心' } },
       { path: 'config/customer-transactions', component: () => import('@/views/config/CustomerTransactionList.vue'), meta: { title: '渠道接口', group: '配置中心' } },
-      { path: 'config/provider-transactions', component: () => import('@/views/config/ProviderTransactionList.vue'), meta: { title: '数据源接口', group: '配置中心' } },
+      { path: 'config/provider-transactions', component: () => import('@/views/config/ProviderTransactionList.vue'), meta: { title: '数据源系统信息', group: '配置中心' } },
       { path: 'config/tags', component: () => import('@/views/config/TagConfig.vue'), meta: { title: 'Tag 配置', group: '配置中心' } },
       { path: 'config/mapping', component: () => import('@/views/config/MappingView.vue'), meta: { title: '字段映射', group: '配置中心' } },
       { path: 'config/samples', component: () => import('@/views/config/SampleList.vue'), meta: { title: '报文样例', group: '配置中心' } },
